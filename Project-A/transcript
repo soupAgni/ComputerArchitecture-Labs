@@ -1,0 +1,621 @@
+# //  ModelSim SE-64 10.1c Jul 27 2012 Linux 3.10.0-327.28.3.el7.x86_64
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+vsim work.barrel_shifter_arithmetic_logical
+# vsim work.barrel_shifter_arithmetic_logical 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.barrel_shifter_arithmetic_logical(structure)#1
+# Loading work.barrel_shifter(structure)#1
+# Loading work.barrel_shifter_arithmetic(structure)#1
+quit -sim
+vsim work.alu_1bit_p2
+# vsim work.alu_1bit_p2 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_1bit_p2(dataflow)#1
+force -freeze sim:/alu_1bit_p2/A 1 0
+force -freeze sim:/alu_1bit_p2/Op 000 0
+force -freeze sim:/alu_1bit_p2/B 0 0
+force -freeze sim:/alu_1bit_p2/Ainvert 0 0
+force -freeze sim:/alu_1bit_p2/Binvert 1 0
+force -freeze sim:/alu_1bit_p2/Cin 1 0
+force -freeze sim:/alu_1bit_p2/Less 0 0
+add wave  \
+sim:/alu_1bit_p2/A \
+sim:/alu_1bit_p2/B \
+sim:/alu_1bit_p2/Op \
+sim:/alu_1bit_p2/Result
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# Cannot determine language of /home/fsjoyti/cpre381/Project-A
+vcom -reportprogress 300 -work work {/home/fsjoyti/cpre381/Project-A/5-1 mux.vhd}
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_5to1_top
+# -- Compiling architecture Behavioral of mux_5to1_top
+vcom -reportprogress 300 -work work /home/fsjoyti/cpre381/Project-A/fullAdder_b.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fullAdder_b
+# -- Compiling architecture dataflow of fullAdder_b
+vcom -reportprogress 300 -work work /home/fsjoyti/cpre381/Project-A/2%3A1_multiplexer.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_2to1_top
+# -- Compiling architecture Behavioral of mux_2to1_top
+vcom -reportprogress 300 -work work /home/fsjoyti/cpre381/Project-A/and2.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+vcom -reportprogress 300 -work work /home/fsjoyti/cpre381/Project-A/inv.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity inv
+# -- Compiling architecture dataflow of inv
+vcom -reportprogress 300 -work work /home/fsjoyti/cpre381/Project-A/or2.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+vcom -reportprogress 300 -work work /home/fsjoyti/cpre381/Project-A/and2.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and2
+# -- Compiling architecture dataflow of and2
+vcom -reportprogress 300 -work work /home/fsjoyti/cpre381/Project-A/inv.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity inv
+# -- Compiling architecture dataflow of inv
+vcom -reportprogress 300 -work work /home/fsjoyti/cpre381/Project-A/or2.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+vcom -reportprogress 300 -work work /home/fsjoyti/cpre381/Project-A/ALU_1bit_P2.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU_1bit_P2
+# -- Compiling architecture dataflow of ALU_1bit_P2
+vcom -reportprogress 300 -work work {/home/fsjoyti/cpre381/Project-A/ALU_1bit_P2 - Copy.vhd}
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU_1bit_P2
+# -- Compiling architecture dataflow of ALU_1bit_P2
+vcom -reportprogress 300 -work work /home/fsjoyti/cpre381/Project-A/ALU_1bit_P2.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU_1bit_P2
+# -- Compiling architecture dataflow of ALU_1bit_P2
+vsim work.alu_1bit_p2
+# vsim work.alu_1bit_p2 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_1bit_p2(dataflow)#1
+force -freeze sim:/alu_1bit_p2/A 1 0
+force -freeze sim:/alu_1bit_p2/B 0 0
+force -freeze sim:/alu_1bit_p2/Ainvert 0 0
+force -freeze sim:/alu_1bit_p2/Binvert 0 0
+force -freeze sim:/alu_1bit_p2/Cin 0 0
+force -freeze sim:/alu_1bit_p2/Less 0 0
+force -freeze sim:/alu_1bit_p2/Op 000 0
+add wave  \
+sim:/alu_1bit_p2/A \
+sim:/alu_1bit_p2/B \
+sim:/alu_1bit_p2/Cin \
+sim:/alu_1bit_p2/Op \
+sim:/alu_1bit_p2/Result
+run
+run
+run
+run
+run
+quit -sim
+vsim work.alu_1bit_p2
+# vsim work.alu_1bit_p2 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_1bit_p2(dataflow)#1
+add wave  \
+sim:/alu_1bit_p2/A \
+sim:/alu_1bit_p2/B \
+sim:/alu_1bit_p2/Op \
+sim:/alu_1bit_p2/Result
+force -freeze sim:/alu_1bit_p2/A 1 0
+force -freeze sim:/alu_1bit_p2/B 0 0
+force -freeze sim:/alu_1bit_p2/Op 001 0
+force -freeze sim:/alu_1bit_p2/Ainvert 0 0
+force -freeze sim:/alu_1bit_p2/Binvert 1 0
+force -freeze sim:/alu_1bit_p2/Cin 0 0
+force -freeze sim:/alu_1bit_p2/Less 0 0
+run
+run
+run
+run
+run
+quit -sim
+vsim work.alu_1bit_p2
+# vsim work.alu_1bit_p2 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_1bit_p2(dataflow)#1
+force -freeze sim:/alu_1bit_p2/A 1 0
+force -freeze sim:/alu_1bit_p2/B 1 0
+force -freeze sim:/alu_1bit_p2/Ainvert 0 0
+force -freeze sim:/alu_1bit_p2/Binvert 0 0
+force -freeze sim:/alu_1bit_p2/Cin 0 0
+force -freeze sim:/alu_1bit_p2/Less 0 0
+force -freeze sim:/alu_1bit_p2/Op 010 0
+add wave  \
+sim:/alu_1bit_p2/A \
+sim:/alu_1bit_p2/B \
+sim:/alu_1bit_p2/Carry_out \
+sim:/alu_1bit_p2/Cin \
+sim:/alu_1bit_p2/Op \
+sim:/alu_1bit_p2/Result
+run
+run
+run
+run
+noforce sim:/alu_1bit_p2/A
+force -freeze sim:/alu_1bit_p2/A 1 0
+force -freeze sim:/alu_1bit_p2/Cin 1 0
+force -freeze sim:/alu_1bit_p2/B 1 0
+force -freeze sim:/alu_1bit_p2/Op 010 0
+quit -sim
+vsim work.alu_1bit_p2
+# vsim work.alu_1bit_p2 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_1bit_p2(dataflow)#1
+force -freeze sim:/alu_1bit_p2/A 1 0
+force -freeze sim:/alu_1bit_p2/Ainvert 0 0
+force -freeze sim:/alu_1bit_p2/B 1 0
+force -freeze sim:/alu_1bit_p2/Binvert 0 0
+force -freeze sim:/alu_1bit_p2/Op 010 0
+add wave  \
+sim:/alu_1bit_p2/A \
+sim:/alu_1bit_p2/B \
+sim:/alu_1bit_p2/Carry_out \
+sim:/alu_1bit_p2/Cin \
+sim:/alu_1bit_p2/Op \
+sim:/alu_1bit_p2/Result
+force -freeze sim:/alu_1bit_p2/Cin 1 0
+run
+run
+run
+run
+run
+quit -sim
+vsim work.alu_1bit_p2
+# vsim work.alu_1bit_p2 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_1bit_p2(dataflow)#1
+quit -sim
+vcom -reportprogress 300 -work work /home/fsjoyti/cpre381/Project-A/ALU32bit.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU_32bit_P2
+# -- Compiling architecture dataflow of ALU_32bit_P2
+vsim work.alu_32bit_p2
+# vsim work.alu_32bit_p2 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_32bit_p2(dataflow)#1
+# Loading work.alu_1bit_p2(dataflow)#1
+force -freeze sim:/alu_32bit_p2/A x\"ffffffff\" 0
+force -freeze sim:/alu_32bit_p2/B x\"00000000\" 0
+force -freeze sim:/alu_32bit_p2/Ainvert U 0
+force -freeze sim:/alu_32bit_p2/Ainvert 0 0
+force -freeze sim:/alu_32bit_p2/Binvert 0 0
+force -freeze sim:/alu_32bit_p2/Ainvert 0 0
+force -freeze sim:/alu_32bit_p2/Cin 0 0
+force -freeze sim:/alu_32bit_p2/Op 001 0
+add wave  \
+sim:/alu_32bit_p2/A \
+sim:/alu_32bit_p2/B \
+sim:/alu_32bit_p2/Op \
+sim:/alu_32bit_p2/Result
+run
+run
+run
+quit -sim
+vsim work.alu_32bit_p2
+# vsim work.alu_32bit_p2 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_32bit_p2(dataflow)#1
+# Loading work.alu_1bit_p2(dataflow)#1
+force -freeze sim:/alu_32bit_p2/A x\"ffffffff\" 0
+force -freeze sim:/alu_32bit_p2/Ainvert 0 0
+force -freeze sim:/alu_32bit_p2/B x\"00000000\" 0
+force -freeze sim:/alu_32bit_p2/Binvert 0 0
+force -freeze sim:/alu_32bit_p2/Cin 0 0
+force -freeze sim:/alu_32bit_p2/Op 000 0
+add wave  \
+sim:/alu_32bit_p2/A \
+sim:/alu_32bit_p2/B \
+sim:/alu_32bit_p2/Cin \
+sim:/alu_32bit_p2/Op \
+sim:/alu_32bit_p2/Result
+run
+run
+run
+run
+run
+quit -sim
+vsim work.alu_32bit_p2
+# vsim work.alu_32bit_p2 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_32bit_p2(dataflow)#1
+# Loading work.alu_1bit_p2(dataflow)#1
+force -freeze sim:/alu_32bit_p2/A x\"ffffff00\" 0
+force -freeze sim:/alu_32bit_p2/B x\"0fffff00\" 0
+force -freeze sim:/alu_32bit_p2/Cin 1 0
+force -freeze sim:/alu_32bit_p2/Op 010 0
+force -freeze sim:/alu_32bit_p2/Ainvert 0 0
+force -freeze sim:/alu_32bit_p2/Binvert 1 0
+force -freeze sim:/alu_32bit_p2/Cin 1 0
+add wave  \
+sim:/alu_32bit_p2/A \
+sim:/alu_32bit_p2/B \
+sim:/alu_32bit_p2/Cin \
+sim:/alu_32bit_p2/Op \
+sim:/alu_32bit_p2/Result
+run
+run
+run
+run
+quit -sim
+vsim work.alu_32bit_p2
+# vsim work.alu_32bit_p2 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_32bit_p2(dataflow)#1
+# Loading work.alu_1bit_p2(dataflow)#1
+force -freeze sim:/alu_32bit_p2/A x\"ffffffff\" 0
+force -freeze sim:/alu_32bit_p2/B x\"00000000\" 0
+force -freeze sim:/alu_32bit_p2/Ainvert 0 0
+force -freeze sim:/alu_32bit_p2/Binvert 0 0
+force -freeze sim:/alu_32bit_p2/Cin 0 0
+force -freeze sim:/alu_32bit_p2/Op 000 0
+run
+force -freeze sim:/alu_32bit_p2/A x\"ffffffff\" 0
+force -freeze sim:/alu_32bit_p2/B 00000000000000000000000000000000 0
+force -freeze sim:/alu_32bit_p2/B x\"00000000\" 0
+force -freeze sim:/alu_32bit_p2/Ainvert 0 0
+force -freeze sim:/alu_32bit_p2/Binvert 0 0
+force -freeze sim:/alu_32bit_p2/Op 001 0
+run
+run
+quit -sim
+vsim work.alu_32bit_p2
+# vsim work.alu_32bit_p2 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_32bit_p2(dataflow)#1
+# Loading work.alu_1bit_p2(dataflow)#1
+force -freeze sim:/alu_32bit_p2/A x\"0FFFFF00\" 0
+force -freeze sim:/alu_32bit_p2/A x\"ffffff00\" 0
+force -freeze sim:/alu_32bit_p2/Binvert 1 0
+force -freeze sim:/alu_32bit_p2/Cin 1 0
+force -freeze sim:/alu_32bit_p2/Ainvert 0 0
+force -freeze sim:/alu_32bit_p2/Op 010 0
+add wave  \
+sim:/alu_32bit_p2/A \
+sim:/alu_32bit_p2/B \
+sim:/alu_32bit_p2/Carry_out \
+sim:/alu_32bit_p2/Cin \
+sim:/alu_32bit_p2/Op \
+sim:/alu_32bit_p2/Result
+force -freeze sim:/alu_32bit_p2/A x\"0fffffff\" 0
+force -freeze sim:/alu_32bit_p2/B x\"fffffff0\" 0
+run
+run
+run
+run
+quit -sim
+vsim work.alu_32bit_p2
+# vsim work.alu_32bit_p2 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_32bit_p2(dataflow)#1
+# Loading work.alu_1bit_p2(dataflow)#1
+force -freeze sim:/alu_32bit_p2/A x\"fff000ff\" 0
+force -freeze sim:/alu_32bit_p2/Ainvert 0 0
+force -freeze sim:/alu_32bit_p2/B x\"000fff00\" 0
+force -freeze sim:/alu_32bit_p2/Binvert 0 0
+force -freeze sim:/alu_32bit_p2/Carry_out 0 0
+noforce sim:/alu_32bit_p2/Carry_out
+force -freeze sim:/alu_32bit_p2/Cin 0 0
+force -freeze sim:/alu_32bit_p2/Op 100 0
+add wave  \
+sim:/alu_32bit_p2/A \
+sim:/alu_32bit_p2/B \
+sim:/alu_32bit_p2/Cin \
+sim:/alu_32bit_p2/Op \
+sim:/alu_32bit_p2/Result
+run
+run
+run
+run
+force -freeze sim:/alu_32bit_p2/A x\"ffffffff\" 0
+force -freeze sim:/alu_32bit_p2/B x\"ffffffff\" 0
+force -freeze sim:/alu_32bit_p2/Ainvert 0 0
+force -freeze sim:/alu_32bit_p2/Carry_out 0 0
+force -freeze sim:/alu_32bit_p2/Cin 0 0
+run
+run
+run
+run
+quit -sim
+vcom -reportprogress 300 -work work /home/fsjoyti/cpre381/Project-A/ALU32bit.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU_32bit_P2
+# -- Compiling architecture dataflow of ALU_32bit_P2
+vsim work.alu_32bit_p2
+# vsim work.alu_32bit_p2 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_32bit_p2(dataflow)#1
+# Loading work.alu_1bit_p2(dataflow)#1
+force -freeze sim:/alu_32bit_p2/A x\"ffffffff\" 0
+force -freeze sim:/alu_32bit_p2/Ainvert 0 0
+force -freeze sim:/alu_32bit_p2/B x\"ffffffff\" 0
+force -freeze sim:/alu_32bit_p2/Binvert 0 0
+force -freeze sim:/alu_32bit_p2/Cin 0 0
+force -freeze sim:/alu_32bit_p2/Op 100 0
+add wave  \
+sim:/alu_32bit_p2/A \
+sim:/alu_32bit_p2/B \
+sim:/alu_32bit_p2/Cin \
+sim:/alu_32bit_p2/Op \
+sim:/alu_32bit_p2/Result
+run
+run
+run
+run
+quit -sim
+vsim work.alu_32bit_p2
+# vsim work.alu_32bit_p2 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_32bit_p2(dataflow)#1
+# Loading work.alu_1bit_p2(dataflow)#1
+force -freeze sim:/alu_32bit_p2/A x\"0fff00ff\" 0
+force -freeze sim:/alu_32bit_p2/Ainvert 0 0
+force -freeze sim:/alu_32bit_p2/B x\"f000ff00\" 0
+force -freeze sim:/alu_32bit_p2/Binvert 0 0
+force -freeze sim:/alu_32bit_p2/Cin 0 0
+force -freeze sim:/alu_32bit_p2/Op 010 0
+add wave  \
+sim:/alu_32bit_p2/A \
+sim:/alu_32bit_p2/Ainvert \
+sim:/alu_32bit_p2/B \
+sim:/alu_32bit_p2/Binvert \
+sim:/alu_32bit_p2/Cin \
+sim:/alu_32bit_p2/Op \
+sim:/alu_32bit_p2/Result
+run
+run
+run
+run
+quit -sim
+vsim work.alu_32bit_p2
+# vsim work.alu_32bit_p2 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_32bit_p2(dataflow)#1
+# Loading work.alu_1bit_p2(dataflow)#1
+force -freeze sim:/alu_32bit_p2/A x\"0ffffffff\" 0
+force -freeze sim:/alu_32bit_p2/B x\"ffffffff\" 0
+force -freeze sim:/alu_32bit_p2/Ainvert 0 0
+force -freeze sim:/alu_32bit_p2/Binvert 0 0
+force -freeze sim:/alu_32bit_p2/Cin 0 0
+force -freeze sim:/alu_32bit_p2/A x\"00000000\" 0
+force -freeze sim:/alu_32bit_p2/B 11111111111111111111111111111111 0
+force -freeze sim:/alu_32bit_p2/Ainvert 0 0
+force -freeze sim:/alu_32bit_p2/Binvert 0 0
+force -freeze sim:/alu_32bit_p2/Cin 0 0
+force -freeze sim:/alu_32bit_p2/Op 011 0
+add wave  \
+sim:/alu_32bit_p2/A \
+sim:/alu_32bit_p2/B \
+sim:/alu_32bit_p2/Carry_out \
+sim:/alu_32bit_p2/Cin \
+sim:/alu_32bit_p2/Op \
+sim:/alu_32bit_p2/Result
+run
+run
+run
+quit -sim
+vsim work.alu_32bit_p2
+# vsim work.alu_32bit_p2 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_32bit_p2(dataflow)#1
+# Loading work.alu_1bit_p2(dataflow)#1
+force -freeze sim:/alu_32bit_p2/A x\"ffffffff\" 0
+force -freeze sim:/alu_32bit_p2/Ainvert 0 0
+force -freeze sim:/alu_32bit_p2/B x\"00000000\" 0
+force -freeze sim:/alu_32bit_p2/Binvert 0\\ 0
+# ** Error: (vsim-4026) Value "0\\" does not represent a literal of the enumeration type.
+# ** Error: (vsim-4011) Invalid force value: 0\\ 0.
+# 
+force -freeze sim:/alu_32bit_p2/Binvert 0 0
+force -freeze sim:/alu_32bit_p2/Cin 0 0
+force -freeze sim:/alu_32bit_p2/Op 011 0
+add wave  \
+sim:/alu_32bit_p2/A \
+sim:/alu_32bit_p2/B \
+sim:/alu_32bit_p2/Cin \
+sim:/alu_32bit_p2/Op \
+sim:/alu_32bit_p2/Result
+run
+run
+run
+force -freeze sim:/alu_32bit_p2/A x\"0fffffff\" 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/alu_32bit_p2/A x\"00000000\" 0
+force -freeze sim:/alu_32bit_p2/Ainvert 0 0
+force -freeze sim:/alu_32bit_p2/B x\"ffffffff\" 0
+force -freeze sim:/alu_32bit_p2/Binvert 0 0
+force -freeze sim:/alu_32bit_p2/Cin 0 0
+run
+quit -sim
+vsim work.alu_1bit_p2
+# vsim work.alu_1bit_p2 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_1bit_p2(dataflow)#1
+force -freeze sim:/alu_1bit_p2/A 0 0
+force -freeze sim:/alu_1bit_p2/B 1 0
+force -freeze sim:/alu_1bit_p2/Ainvert 1 0
+force -freeze sim:/alu_1bit_p2/Binvert 0 0
+force -freeze sim:/alu_1bit_p2/Cin 0 0
+force -freeze sim:/alu_1bit_p2/Op 010 0
+add wave  \
+sim:/alu_1bit_p2/A \
+sim:/alu_1bit_p2/B \
+sim:/alu_1bit_p2/Cin \
+sim:/alu_1bit_p2/Op \
+sim:/alu_1bit_p2/Result
+run
+run
+run
+add wave  \
+sim:/alu_1bit_p2/Carry_out
+quit -sim
+vsim work.alu_32bit_p2
+# vsim work.alu_32bit_p2 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.alu_32bit_p2(dataflow)#1
+# Loading work.alu_1bit_p2(dataflow)#1
+add wave -position insertpoint  \
+sim:/alu_32bit_p2/A \
+sim:/alu_32bit_p2/Ainvert \
+sim:/alu_32bit_p2/B \
+sim:/alu_32bit_p2/Binvert \
+sim:/alu_32bit_p2/Carry_out \
+sim:/alu_32bit_p2/Cin \
+sim:/alu_32bit_p2/Op \
+sim:/alu_32bit_p2/Overflow \
+sim:/alu_32bit_p2/Result \
+sim:/alu_32bit_p2/Zero
+force -freeze sim:/alu_32bit_p2/A x\"00000000\" 0
+force -freeze sim:/alu_32bit_p2/Ainvert 0 0
+force -freeze sim:/alu_32bit_p2/B x\"11111111\" 0
+force -freeze sim:/alu_32bit_p2/Binvert 0 0
+force -freeze sim:/alu_32bit_p2/Carry_out 0 0
+force -freeze sim:/alu_32bit_p2/Cin 0 0
+force -freeze sim:/alu_32bit_p2/Op 000 0
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/alu_32bit_p2/B x\"00000000\" 0
+force -freeze sim:/alu_32bit_p2/A x\"11111111\" 0
+force -freeze sim:/alu_32bit_p2/Op 001 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

@@ -1,0 +1,84 @@
+
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity tb_processor is
+  
+  generic(gCLK_HPER   : time := 50 ns);
+  
+end tb_processor;
+
+architecture behavior of tb_processor is
+  
+  -- Calculate the clock period as twice the half-period
+  constant cCLK_PER  : time := gCLK_HPER * 2;
+ 
+  component processor
+    
+    
+    port(nAdd_Sub  : in std_logic;
+       ALUSrc    : in std_logic;    
+       Clk       : in std_logic;
+       rs_addr   : in std_logic_vector(4 downto 0);
+       rt_addr   : in std_logic_vector(4 downto 0);
+       w_data    : in std_logic_vector(31 downto 0);
+       w_addr    : in std_logic_vector(4 downto 0);
+       w_en      : in std_logic;
+       reset      : in std_logic;
+       val       : out std_logic_vector(31 downto 0);
+       carry     : out std_logic_vector(31 downto 0));
+       
+  end component;
+
+  -- Temporary signals to connect to the dff component.
+  signal s_CLK, s_nAdd_Sub, s_ALUSrc, s_wen, s_reset :  std_logic;
+  signal s_rs_addr, s_rt_addr, s_w_addr : std_logic_vector(4 downto 0);
+  signal s_data, s_val, s_carry : std_logic_vector(31 downto 0);
+begin
+
+  DUT: processor
+  port map(nAdd_Sub  => s_nAdd_Sub,
+           ALUSrc    => s_ALUSrc,
+           Clk       => s_Clk,
+           rs_addr   => s_rs_addr,
+           rt_addr   => s_rt_addr,
+           w_data    => s_data,
+           w_addr    => s_w_addr,
+           w_en      => s_wen,
+           reset     => s_reset,
+           val       => s_val,
+           carry     => s_carry);
+
+  -- This process sets the clock value (low for gCLK_HPER, then high
+  -- for gCLK_HPER). Absent a "wait" command, processes restart 
+  -- at the beginning once they have reached the final statement.
+  
+  P_CLK: process
+  begin
+    s_Clk <= '0';
+    wait for gCLK_HPER;
+    s_Clk <= '1';
+    wait for gCLK_HPER;
+  end process;
+  
+
+  
+  -- Testbench process  
+  P_TB: process
+  begin
+  
+    s_nAdd_Sub <= '0';
+    s_ALUSrc  <= '1';
+    s_wen      <= '1';
+    s_reset   <= '0';
+    s_w_addr  <= "11111";
+    s_rs_addr  <= "00000";
+    s_rt_addr   <= "00001";
+    s_data    <= "00000000000000000000000000000001";
+    wait for cCLK_PER;
+
+    wait;
+  end process;
+  
+end behavior;

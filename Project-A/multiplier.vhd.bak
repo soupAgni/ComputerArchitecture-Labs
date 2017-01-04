@@ -1,0 +1,53 @@
+use work.all;
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use work.array2D.all;
+
+entity multiplier is
+    generic(N : integer := 32);
+    Port ( a   :  std_logic_vector(31 downto 0);---multiplicand
+           b  :  std_logic_vector(31 downto 0);---multiplier
+           product : out std_logic_vector(63 downto 0));
+end multiplier;
+
+
+architecture structure of multiplier is
+
+component and2
+  port(i_A          : in std_logic;
+       i_B          : in std_logic;
+       o_F          : out std_logic);
+  end component;
+  
+  
+ component fullAdder_b 
+  port(C_in      : in std_logic;
+       A         : in std_logic;
+       B         : in std_logic;
+       C_out     : out std_logic;
+       S_out     : out std_logic);
+  end component;
+  
+  
+  ----------------------------- 
+  signal s_output: STD_LOGIC_VECTOR(30 downto 0);
+  signal s_Cin :std_logic;
+  signal s_A    :std_logic;
+  signal s_B    :std_logic;
+  signal s_C    :std_logic;
+  signal s_C_out: std_logic;
+  signal s_and1  :std_logic;
+  signal ss_Sum  :array32_bit(31 downto 0);
+ ----------------------------- 
+ begin
+
+  and1 :   and2      
+    port map(i_A  => a(0),
+             i_B  => b(0),
+             o_F  => product(0));
+             
+             
+ 
+ 
+ 
+end structure;

@@ -1,0 +1,209 @@
+# //  ModelSim SE-64 10.1c Jul 27 2012 Linux 3.10.0-327.28.3.el7.x86_64
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+vsim work.multiplier_final
+# vsim work.multiplier_final 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.array2d
+# Loading work.multiplier_final(dataflow)#1
+quit -sim
+vsim work.multiplier_final
+# vsim work.multiplier_final 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.array2d
+# Loading work.multiplier_final(dataflow)#1
+force -freeze sim:/multiplier_final/X 1010 0
+force -freeze sim:/multiplier_final/Y 0101 0
+force -freeze sim:/multiplier_final/carry_in 1 0
+force -freeze sim:/multiplier_final/X 1111 0
+force -freeze sim:/multiplier_final/Y 0000 0
+force -freeze sim:/multiplier_final/carry_in 0 0
+add wave  \
+sim:/multiplier_final/X \
+sim:/multiplier_final/Y \
+sim:/multiplier_final/carry_in \
+sim:/multiplier_final/carry_out \
+sim:/multiplier_final/R \
+sim:/multiplier_final/s_and1
+run
+run
+run
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work /home/souparni/cpre381/projectA/fullAdder_d.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fullAdder_d
+# -- Compiling architecture dataflow of fullAdder_d
+vsim work.fulladder_d
+# vsim work.fulladder_d 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.fulladder_d(dataflow)#1
+force -freeze sim:/fulladder_d/A x\"ffffff00\" 0
+force -freeze sim:/fulladder_d/B x\"00000000\" 0
+force -freeze sim:/fulladder_d/C_in 1 0
+force -freeze sim:/fulladder_d/C_in 0 0
+add wave  \
+sim:/fulladder_d/C_in \
+sim:/fulladder_d/A \
+sim:/fulladder_d/B \
+sim:/fulladder_d/C_out \
+sim:/fulladder_d/S_out
+run
+run
+run
+run
+run
+run
+quit -sim
+vsim work.multiplier_final
+# vsim work.multiplier_final 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.array2d
+# Loading work.multiplier_final(dataflow)#1
+force -freeze sim:/multiplier_final/X 1111 0
+force -freeze sim:/multiplier_final/Y 0000 0
+force -freeze sim:/multiplier_final/carry_in 1 0
+run
+run
+run
+run
+run
+run
+vcom -reportprogress 300 -work work /home/souparni/cpre381/projectA/multiplier_final.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package array2D
+# -- Compiling entity multiplier_final
+# -- Compiling architecture dataflow of multiplier_final
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(86): Cannot resolve indexed name (type ieee.std_logic_1164.STD_ULOGIC) as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(114): (vcom-1136) Unknown identifier "s_C".
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(114): (vcom-1436) Actual expression (indexed name) of formal "C_in" is not globally static.
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(117): Cannot resolve indexed name (type ieee.std_logic_1164.STD_ULOGIC) as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(135): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/souparni/cpre381/projectA/fullAdder_d.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fullAdder_d
+# -- Compiling architecture dataflow of fullAdder_d
+vcom -reportprogress 300 -work work /home/souparni/cpre381/projectA/multiplier_final.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package array2D
+# -- Compiling entity multiplier_final
+# -- Compiling architecture dataflow of multiplier_final
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(86): Cannot resolve indexed name (type ieee.std_logic_1164.STD_ULOGIC) as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(114): (vcom-1136) Unknown identifier "s_C".
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(114): (vcom-1436) Actual expression (indexed name) of formal "C_in" is not globally static.
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(117): Cannot resolve indexed name (type ieee.std_logic_1164.STD_ULOGIC) as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(135): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/souparni/cpre381/projectA/multiplier_final.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package array2D
+# -- Compiling entity multiplier_final
+# -- Compiling architecture dataflow of multiplier_final
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(86): Cannot resolve indexed name (type ieee.std_logic_1164.STD_ULOGIC) as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(114): (vcom-1136) Unknown identifier "s_C".
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(114): (vcom-1436) Actual expression (indexed name) of formal "C_in" is not globally static.
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(117): Cannot resolve indexed name (type ieee.std_logic_1164.STD_ULOGIC) as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(135): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/souparni/cpre381/projectA/multiplier_final.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package array2D
+# -- Compiling entity multiplier_final
+# -- Compiling architecture dataflow of multiplier_final
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(114): (vcom-1136) Unknown identifier "s_C".
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(114): (vcom-1436) Actual expression (indexed name) of formal "C_in" is not globally static.
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(117): Cannot resolve indexed name (type ieee.std_logic_1164.STD_ULOGIC) as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(135): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/souparni/cpre381/projectA/or2.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or2
+# -- Compiling architecture dataflow of or2
+vcom -reportprogress 300 -work work /home/souparni/cpre381/projectA/multiplier_final.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package array2D
+# -- Compiling entity multiplier_final
+# -- Compiling architecture dataflow of multiplier_final
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(117): Cannot resolve indexed name (type ieee.std_logic_1164.STD_ULOGIC) as type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(135): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/souparni/cpre381/projectA/multiplier_final.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package array2D
+# -- Compiling entity multiplier_final
+# -- Compiling architecture dataflow of multiplier_final
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(86): Signal "s_C1" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/souparni/cpre381/projectA/multiplier_final.vhd(135): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/souparni/cpre381/projectA/multiplier_final.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package array2D
+# -- Compiling entity multiplier_final
+# -- Compiling architecture dataflow of multiplier_final
+vsim work.multiplier_final
+# vsim work.multiplier_final 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.array2d
+# Loading work.multiplier_final(dataflow)#1
+add wave -position insertpoint  \
+sim:/multiplier_final/X \
+sim:/multiplier_final/Y \
+sim:/multiplier_final/carry_in \
+sim:/multiplier_final/carry_out \
+sim:/multiplier_final/R
+force -freeze sim:/multiplier_final/X 1111 0
+force -freeze sim:/multiplier_final/Y 1111 0
+force -freeze sim:/multiplier_final/carry_in 0 0
+run
+run
+run
+force -freeze sim:/multiplier_final/carry_in 1 0
+run
+run

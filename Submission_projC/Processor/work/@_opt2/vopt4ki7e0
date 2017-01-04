@@ -1,0 +1,1657 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/fsjoyti/cpre381/00ALL
+T_opt
+VAL?BJW4MX`;Mj_DRik@;C1
+04 10 8 work tb_idstage behavior 1
+=1-000000000000-584c6f05-d5a08-215a
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.1c;51
+Z3 d/home/fsjoyti/cpre381/00ALL
+T_opt1
+VDZ[a>l81<J9YCzHf`A24g1
+04 10 8 work tb_pipereg behavior 1
+=1-000000000000-584f212d-77764-5597
+R1
+n@_opt1
+R2
+R3
+T_opt2
+Vlbj<h[1^HY2=n0XYK;`[G1
+04 24 9 work mips_pipelined_processor structure 1
+=1-000000000000-584f28d8-e1b60-58e7
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt2
+R2
+Eaddsub
+Z4 w1479230092
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R3
+Z7 8/home/fsjoyti/cpre381/00ALL/AddSub.vhd
+Z8 F/home/fsjoyti/cpre381/00ALL/AddSub.vhd
+l0
+L9
+V0Tfm2Ro7gaVXOWA<nKgG@1
+Z9 OL;C;10.1c;51
+32
+Z10 !s108 1481404140.192757
+Z11 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/AddSub.vhd|
+Z12 !s107 /home/fsjoyti/cpre381/00ALL/AddSub.vhd|
+Z13 o-work work
+Z14 tExplicit 1
+!s100 `UEc^gekdh6;8Q^Pag_HV0
+!i10b 1
+Astructure
+R5
+R6
+DEx4 work 6 addsub 0 22 0Tfm2Ro7gaVXOWA<nKgG@1
+32
+l43
+L18
+V`ghLPZJmUi>B2n@^N1l>@3
+R9
+R10
+R11
+R12
+R13
+R14
+!s100 ::74d[;9E?okMGJFeZG>M0
+!i10b 1
+Ealu
+R4
+R5
+R6
+R3
+Z15 8/home/fsjoyti/cpre381/00ALL/ALU.vhd
+Z16 F/home/fsjoyti/cpre381/00ALL/ALU.vhd
+l0
+L9
+VLOE4YQJn7mDdYlT[hkZP`3
+R9
+32
+Z17 !s108 1481404140.407678
+Z18 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/ALU.vhd|
+Z19 !s107 /home/fsjoyti/cpre381/00ALL/ALU.vhd|
+R13
+R14
+!s100 o_m=NS^>Sjn?]2B@`?FIX0
+!i10b 1
+Astructure
+R5
+R6
+DEx4 work 3 alu 0 22 LOE4YQJn7mDdYlT[hkZP`3
+32
+l64
+L23
+VMJLha9ZT[9JGh2K7<IQiA2
+R9
+R17
+R18
+R19
+R13
+R14
+!s100 7Kl`V0HS8dANN4<;lEW7a2
+!i10b 1
+Ealu_1bit
+R4
+R5
+R6
+R3
+Z20 8/home/fsjoyti/cpre381/00ALL/ALU_1bit.vhd
+Z21 F/home/fsjoyti/cpre381/00ALL/ALU_1bit.vhd
+l0
+L9
+V4715ffz2jVe<B>gF9^VfG0
+R9
+32
+Z22 !s108 1481404140.613000
+Z23 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/ALU_1bit.vhd|
+Z24 !s107 /home/fsjoyti/cpre381/00ALL/ALU_1bit.vhd|
+R13
+R14
+!s100 e5F:Gg4LNcTkK<7K3L[W93
+!i10b 1
+Adataflow
+R5
+R6
+DEx4 work 8 alu_1bit 0 22 4715ffz2jVe<B>gF9^VfG0
+32
+l23
+L19
+V>jNElM=G;EgMCe>6lj?=W3
+R9
+R22
+R23
+R24
+R13
+R14
+!s100 FI0e3oW1GAU48Q?cX0O1_2
+!i10b 1
+Ealu_1bit_final
+R4
+R5
+R6
+R3
+Z25 8/home/fsjoyti/cpre381/00ALL/ALU_1bit_final.vhd
+Z26 F/home/fsjoyti/cpre381/00ALL/ALU_1bit_final.vhd
+l0
+L9
+VSN2nLnMgf>]KR:niiU]oK1
+R9
+32
+Z27 !s108 1481404140.792038
+Z28 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/ALU_1bit_final.vhd|
+Z29 !s107 /home/fsjoyti/cpre381/00ALL/ALU_1bit_final.vhd|
+R13
+R14
+!s100 XNnhn6^Z6Uf@XSHlMO>Uz3
+!i10b 1
+Adataflow
+R5
+R6
+DEx4 work 14 alu_1bit_final 0 22 SN2nLnMgf>]KR:niiU]oK1
+32
+l25
+L21
+VJUW[k41S=^mh?Od48FZo_0
+R9
+R27
+R28
+R29
+R13
+R14
+!s100 1oMV:b56nYNoknljn77HI1
+!i10b 1
+Ealu_32bit
+Z30 w1480719939
+R5
+R6
+R3
+Z31 8/home/fsjoyti/cpre381/00ALL/ALU_32bit.vhd
+Z32 F/home/fsjoyti/cpre381/00ALL/ALU_32bit.vhd
+l0
+L17
+VgE^aSRg]3XhbAQSdHkYOF2
+R9
+32
+Z33 !s108 1481404140.994012
+Z34 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/ALU_32bit.vhd|
+Z35 !s107 /home/fsjoyti/cpre381/00ALL/ALU_32bit.vhd|
+R13
+R14
+!s100 :bZ`YC3JlL;bMm<cYD_YL2
+!i10b 1
+Amixed
+R5
+R6
+DEx4 work 9 alu_32bit 0 22 gE^aSRg]3XhbAQSdHkYOF2
+32
+l59
+L29
+VP[Qn[LFVNAc8zdD4Phdlf3
+R9
+R33
+R34
+R35
+R13
+R14
+!s100 @F`OWP[Rg9aPf@cX?jNm_1
+!i10b 1
+Ealu_control
+R4
+R5
+R6
+R3
+Z36 8/home/fsjoyti/cpre381/00ALL/ALU_control.vhd
+Z37 F/home/fsjoyti/cpre381/00ALL/ALU_control.vhd
+l0
+L9
+VieCY?Uj8V?8A]d2ll7H8c1
+R9
+32
+Z38 !s108 1481404141.239693
+Z39 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/ALU_control.vhd|
+Z40 !s107 /home/fsjoyti/cpre381/00ALL/ALU_control.vhd|
+R13
+R14
+!s100 bhXiD7PgQe9i<3G^;0P@>2
+!i10b 1
+Amixed
+R5
+R6
+DEx4 work 11 alu_control 0 22 ieCY?Uj8V?8A]d2ll7H8c1
+32
+l34
+L22
+V3FU4>=G^:jC[4`5;bdBe02
+R9
+R38
+R39
+R40
+R13
+R14
+!s100 V]SBa3l@YSi]d_ZN]3VP01
+!i10b 1
+Eand2
+Z41 w1471486984
+R5
+R6
+R3
+Z42 8/home/fsjoyti/cpre381/00ALL/and2.vhd
+Z43 F/home/fsjoyti/cpre381/00ALL/and2.vhd
+l0
+L21
+VhdN5CX>GzelGC?Caa7z3z1
+R9
+32
+Z44 !s108 1481404141.502268
+Z45 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/and2.vhd|
+Z46 !s107 /home/fsjoyti/cpre381/00ALL/and2.vhd|
+R13
+R14
+!s100 lO?WAJ[HO55_;GBaC]4:T3
+!i10b 1
+Adataflow
+R5
+R6
+DEx4 work 4 and2 0 22 hdN5CX>GzelGC?Caa7z3z1
+32
+l30
+L29
+VQhF5]JHAgE[NE0nO9RHd@2
+R9
+R44
+R45
+R46
+R13
+R14
+!s100 :JPJPAKnk?gQ;0GJ72LF72
+!i10b 1
+Ebarrel_shifter
+R4
+Z47 DPx4 ieee 9 math_real 0 22 :iME`dTX54_U49lJNF5JI3
+R5
+R6
+R3
+Z48 8/home/fsjoyti/cpre381/00ALL/barrel_shifter.vhd
+Z49 F/home/fsjoyti/cpre381/00ALL/barrel_shifter.vhd
+l0
+L10
+VUMIZg8bOV78D;7`mX6eIm0
+R9
+32
+Z50 !s108 1481404141.714051
+Z51 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/barrel_shifter.vhd|
+Z52 !s107 /home/fsjoyti/cpre381/00ALL/barrel_shifter.vhd|
+R13
+R14
+!s100 mPLklASk]@3B]d1f<z2W>2
+!i10b 1
+Astructure
+R47
+R5
+R6
+DEx4 work 14 barrel_shifter 0 22 UMIZg8bOV78D;7`mX6eIm0
+32
+l32
+L18
+Vh85YV2AJXK0NL<SI@kFj>3
+R9
+R50
+R51
+R52
+R13
+R14
+!s100 cV4aGd_R?IOA8VX@[[EN73
+!i10b 1
+Ebranch_architecture
+Z53 w1479230126
+R5
+R6
+R3
+Z54 8/home/fsjoyti/cpre381/00ALL/Branch_Architecture.vhd
+Z55 F/home/fsjoyti/cpre381/00ALL/Branch_Architecture.vhd
+l0
+L17
+VofMV74n@S[`JeWa0ZI9aV2
+R9
+32
+Z56 !s108 1481404141.914697
+Z57 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/Branch_Architecture.vhd|
+Z58 !s107 /home/fsjoyti/cpre381/00ALL/Branch_Architecture.vhd|
+R13
+R14
+!s100 V7@KdAOiQkZRo7N:hMD1M0
+!i10b 1
+Adataflow
+R5
+R6
+DEx4 work 19 branch_architecture 0 22 ofMV74n@S[`JeWa0ZI9aV2
+32
+l27
+L25
+V494SB@YOGUT2S6G162g6G2
+R9
+R56
+R57
+R58
+R13
+R14
+!s100 jFAMB5kLWJCIRQ1]o`_2c0
+!i10b 1
+Econtrol
+Z59 w1479427057
+R5
+R6
+R3
+Z60 8/home/fsjoyti/cpre381/00ALL/Control.vhd
+Z61 F/home/fsjoyti/cpre381/00ALL/Control.vhd
+l0
+L17
+Vd8@53c>02ZHQa^<ko7cl@3
+R9
+32
+Z62 !s108 1481404142.159167
+Z63 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/Control.vhd|
+Z64 !s107 /home/fsjoyti/cpre381/00ALL/Control.vhd|
+R13
+R14
+!s100 azc5hh?n^cH3]:U[2iI^]1
+!i10b 1
+Adataflow
+R5
+R6
+DEx4 work 7 control 0 22 d8@53c>02ZHQa^<ko7cl@3
+32
+l45
+L40
+V62DQfc@1[XeB@FPYKm>Eh2
+R9
+R62
+R63
+R64
+R13
+R14
+!s100 dMgQm]ZFZSLUR?J3a?UZM2
+!i10b 1
+Edecoder5to32
+R4
+R5
+R6
+R3
+Z65 8/home/fsjoyti/cpre381/00ALL/decoder5to32.vhd
+Z66 F/home/fsjoyti/cpre381/00ALL/decoder5to32.vhd
+l0
+L9
+VNE9;<QDUi6:_>99L9GK_z2
+R9
+32
+Z67 !s108 1481404142.406357
+Z68 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/decoder5to32.vhd|
+Z69 !s107 /home/fsjoyti/cpre381/00ALL/decoder5to32.vhd|
+R13
+R14
+!s100 Y^2jKlej?c3>37H_A[OVW1
+!i10b 1
+Adataflow
+R5
+R6
+DEx4 work 12 decoder5to32 0 22 NE9;<QDUi6:_>99L9GK_z2
+32
+l16
+L14
+Vc<@AhTVnoaEC7Rm8=5dki1
+R9
+R67
+R68
+R69
+R13
+R14
+!s100 I0C0Cj]`_>JYYV[QOmnnc2
+!i10b 1
+Edmem
+Z70 w1480387736
+R5
+R6
+R3
+Z71 8/home/fsjoyti/cpre381/00ALL/dmem.vhd
+Z72 F/home/fsjoyti/cpre381/00ALL/dmem.vhd
+l0
+L9
+Vm5B]27<1G70eXRFnHX`Yz3
+R9
+32
+Z73 !s108 1481404142.644716
+Z74 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/dmem.vhd|
+Z75 !s107 /home/fsjoyti/cpre381/00ALL/dmem.vhd|
+R13
+R14
+!s100 I8S<Yb1N5bkTfdZ`cNR@V0
+!i10b 1
+Astructure
+R5
+R6
+DEx4 work 4 dmem 0 22 m5B]27<1G70eXRFnHX`Yz3
+32
+l52
+L20
+V6CmOcYP]ajO@eAEb]_d863
+R9
+R73
+R74
+R75
+R13
+R14
+!s100 UPF53bP3FbHUkeAXeGmN]0
+!i10b 1
+Eex_stage
+Z76 w1481394880
+R5
+R6
+R3
+Z77 8/home/fsjoyti/cpre381/00ALL/EX_stage.vhd
+Z78 F/home/fsjoyti/cpre381/00ALL/EX_stage.vhd
+l0
+L5
+VX]cf1j_[?h_CO4S]<B0<S2
+R9
+32
+Z79 !s108 1481404142.882536
+Z80 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/EX_stage.vhd|
+Z81 !s107 /home/fsjoyti/cpre381/00ALL/EX_stage.vhd|
+R13
+R14
+!s100 =OoMP3Y7akg^gI:eJR6Oj0
+!i10b 1
+Astructure
+R5
+R6
+DEx4 work 8 ex_stage 0 22 X]cf1j_[?h_CO4S]<B0<S2
+32
+l122
+L61
+V:M7z`djIzbX3bPo?:fFk_1
+R9
+R79
+R80
+R81
+R13
+R14
+!s100 Md0jXhPzTm<ehQ`=aL<GQ0
+!i10b 1
+Eextender16to32
+R4
+R5
+R6
+R3
+Z82 8/home/fsjoyti/cpre381/00ALL/extender16to32.vhd
+Z83 F/home/fsjoyti/cpre381/00ALL/extender16to32.vhd
+l0
+L9
+ViLakgi4X_OkE^o1Q@zKdm3
+R9
+32
+Z84 !s108 1481404143.281560
+Z85 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/extender16to32.vhd|
+Z86 !s107 /home/fsjoyti/cpre381/00ALL/extender16to32.vhd|
+R13
+R14
+!s100 iH[k11h]^^^hge>c[aIU:3
+!i10b 1
+Abehav
+R5
+R6
+DEx4 work 14 extender16to32 0 22 iLakgi4X_OkE^o1Q@zKdm3
+32
+l17
+L15
+VY^EFEd40Gj8gC@k49dS1d0
+R9
+R84
+R85
+R86
+R13
+R14
+!s100 C5K8zcZLH68NVfd<LDl2Z0
+!i10b 1
+Eextender8to32
+Z87 w1479230094
+R5
+R6
+R3
+Z88 8/home/fsjoyti/cpre381/00ALL/extender8to32.vhd
+Z89 F/home/fsjoyti/cpre381/00ALL/extender8to32.vhd
+l0
+L9
+VR21P7mPeQhBIeeO=QFgm01
+R9
+32
+Z90 !s108 1481404143.101491
+Z91 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/extender8to32.vhd|
+Z92 !s107 /home/fsjoyti/cpre381/00ALL/extender8to32.vhd|
+R13
+R14
+!s100 KJYO1Oh4;1`MlYF[VVbAz0
+!i10b 1
+Abehav
+R5
+R6
+DEx4 work 13 extender8to32 0 22 R21P7mPeQhBIeeO=QFgm01
+32
+l17
+L15
+V9>RaVO`7LY5l6XgfhANho3
+R9
+R90
+R91
+R92
+R13
+R14
+!s100 fMT1ZaK<EC:MF>D3@4F=32
+!i10b 1
+Eextomemreg
+Z93 w1481057563
+R5
+R6
+R3
+Z94 8/home/fsjoyti/cpre381/00ALL/exToMemReg.vhd
+Z95 F/home/fsjoyti/cpre381/00ALL/exToMemReg.vhd
+l0
+L5
+Vcc:0o]EVJjCeJE;8152zc1
+R9
+32
+Z96 !s108 1481404143.466652
+Z97 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/exToMemReg.vhd|
+Z98 !s107 /home/fsjoyti/cpre381/00ALL/exToMemReg.vhd|
+R13
+R14
+!s100 91[8FY@Vj?700?0kT[C522
+!i10b 1
+Astructure
+R5
+R6
+DEx4 work 10 extomemreg 0 22 cc:0o]EVJjCeJE;8152zc1
+32
+l66
+L44
+V>`h0AI?31=]jHblR2Qc3c3
+R9
+R96
+R97
+R98
+R13
+R14
+!s100 nDShFe_I9AJ1=:@FHJYOd1
+!i10b 1
+Eforwardingunit
+w1481145914
+R5
+R6
+R3
+8/home/fsjoyti/cpre381/00ALL/ForwardingUnit.vhd
+F/home/fsjoyti/cpre381/00ALL/ForwardingUnit.vhd
+l0
+L11
+Voi5W@B_2nO=iiB?:Bh^R92
+R9
+32
+R13
+R14
+!s100 OC`XzAagOO2oK8F>famkK3
+!i10b 1
+!s108 1481404143.692691
+!s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/ForwardingUnit.vhd|
+!s107 /home/fsjoyti/cpre381/00ALL/ForwardingUnit.vhd|
+Efulladder
+R4
+Z99 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z100 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z101 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R5
+R6
+R3
+Z102 8/home/fsjoyti/cpre381/00ALL/fullAdder.vhd
+Z103 F/home/fsjoyti/cpre381/00ALL/fullAdder.vhd
+l0
+L11
+VD^ZHRS5f1ROHI^SA<777`2
+R9
+32
+Z104 !s108 1481404143.858869
+Z105 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/fullAdder.vhd|
+Z106 !s107 /home/fsjoyti/cpre381/00ALL/fullAdder.vhd|
+R13
+R14
+!s100 oC]az8NH[AHLE]4lT<4`[2
+!i10b 1
+Adataflow
+R99
+R100
+R101
+R5
+R6
+DEx4 work 9 fulladder 0 22 D^ZHRS5f1ROHI^SA<777`2
+32
+l22
+L20
+VnR=<mjKXY>kY=IQYZQSjC0
+R9
+R104
+R105
+R106
+R13
+R14
+!s100 dXdDNTUa<g20K>z<6iOHK0
+!i10b 1
+Ei_mem
+Z107 w1479230186
+R101
+R100
+R5
+R6
+R3
+Z108 8/home/fsjoyti/cpre381/00ALL/i_mem.vhd
+Z109 F/home/fsjoyti/cpre381/00ALL/i_mem.vhd
+l0
+L24
+V8Nh1XehDU=<dZDjWIabWR1
+R9
+32
+Z110 !s108 1481404144.082609
+Z111 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/i_mem.vhd|
+Z112 !s107 /home/fsjoyti/cpre381/00ALL/i_mem.vhd|
+R13
+R14
+!s100 i=>Uj;J?lY[jg6aPQ>7G@2
+!i10b 1
+Abehavioral
+R101
+R100
+R5
+R6
+DEx4 work 5 i_mem 0 22 8Nh1XehDU=<dZDjWIabWR1
+32
+l477
+L35
+Vh9LBWLHMIOJ[cA7ZF<N6f1
+R9
+R110
+R111
+R112
+R13
+R14
+!s100 m25WYKmCS7UT_NK6Y<k_o0
+!i10b 1
+Eid_stage
+Z113 w1481489155
+R5
+R6
+R3
+Z114 8/home/fsjoyti/cpre381/00ALL/ID_stage.vhd
+Z115 F/home/fsjoyti/cpre381/00ALL/ID_stage.vhd
+l0
+L5
+VP75U<5fd5;?bRFSQOhMnn3
+R9
+32
+Z116 !s108 1481489156.178959
+Z117 !s90 -reportprogress|300|-work|work|/home/fsjoyti/cpre381/00ALL/ID_stage.vhd|
+Z118 !s107 /home/fsjoyti/cpre381/00ALL/ID_stage.vhd|
+R13
+R14
+!s100 eY4[]KfPT32nlTX_=YYX[1
+!i10b 1
+Astructure
+R5
+R6
+DEx4 work 8 id_stage 0 22 P75U<5fd5;?bRFSQOhMnn3
+32
+l275
+L66
+VJiMOg``oHlh22X[Ad6nN_1
+R9
+R116
+R117
+R118
+R13
+R14
+!s100 2K8<51YLM_Oh`TP1VmdFe0
+!i10b 1
+Eidtoexreg
+Z119 w1481580586
+R5
+R6
+R3
+Z120 8/home/fsjoyti/cpre381/00ALL/idToExReg.vhd
+Z121 F/home/fsjoyti/cpre381/00ALL/idToExReg.vhd
+l0
+L7
+VNc7WBnl9X<CjC3S=>BizR3
+R9
+32
+Z122 !s108 1481580586.921952
+Z123 !s90 -reportprogress|300|-work|work|/home/fsjoyti/cpre381/00ALL/idToExReg.vhd|
+Z124 !s107 /home/fsjoyti/cpre381/00ALL/idToExReg.vhd|
+R13
+R14
+!s100 WRd4@P8UcF0oa[ef>DUbP0
+!i10b 1
+Astructure
+R5
+R6
+DEx4 work 9 idtoexreg 0 22 Nc7WBnl9X<CjC3S=>BizR3
+32
+l93
+L70
+VC0>Yj@@;;`:H:LTkRaYoH3
+R9
+R122
+R123
+R124
+R13
+R14
+!s100 >JIbZd@oA1Fd__KX5:=O60
+!i10b 1
+Eif_stage
+Z125 w1481492269
+R5
+R6
+R3
+Z126 8/home/fsjoyti/cpre381/00ALL/IF_stage.vhd
+Z127 F/home/fsjoyti/cpre381/00ALL/IF_stage.vhd
+l0
+L5
+V3JVT52fAZ8;5I3be:29UR1
+R9
+32
+Z128 !s108 1481580931.095659
+Z129 !s90 -reportprogress|300|-work|work|/home/fsjoyti/cpre381/00ALL/IF_stage.vhd|
+Z130 !s107 /home/fsjoyti/cpre381/00ALL/IF_stage.vhd|
+R13
+R14
+!s100 L^1[M@i9S2IISFFJ1AF[L0
+!i10b 1
+Astructure
+R5
+R6
+DEx4 work 8 if_stage 0 22 3JVT52fAZ8;5I3be:29UR1
+32
+l77
+L21
+Vh>dHiXhN:8BDOI`IIVQ?_2
+R9
+R128
+R129
+R130
+R13
+R14
+!s100 YaII<Q2bS7j:joAef8F053
+!i10b 1
+Eiftoidreg
+Z131 w1480542395
+R5
+R6
+R3
+Z132 8/home/fsjoyti/cpre381/00ALL/ifToIDReg.vhd
+Z133 F/home/fsjoyti/cpre381/00ALL/ifToIDReg.vhd
+l0
+L8
+Vc1iD=DHBe=n<nndAQ6Q6n3
+R9
+32
+Z134 !s108 1481404145.074408
+Z135 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/ifToIDReg.vhd|
+Z136 !s107 /home/fsjoyti/cpre381/00ALL/ifToIDReg.vhd|
+R13
+R14
+!s100 6ziPDg;enS^IYD^N;?G6Q2
+!i10b 1
+Astructure
+R5
+R6
+DEx4 work 9 iftoidreg 0 22 c1iD=DHBe=n<nndAQ6Q6n3
+32
+l31
+L19
+VN;T:R:FVIGmR;dIW1S9c61
+R9
+R134
+R135
+R136
+R13
+R14
+!s100 A3:@jA;;GaUk@g=_>Ga=43
+!i10b 1
+Einstruction_fetch
+Z137 w1481332554
+R5
+R6
+R3
+Z138 8/home/fsjoyti/cpre381/00ALL/instruction_fetch.vhd
+Z139 F/home/fsjoyti/cpre381/00ALL/instruction_fetch.vhd
+l0
+L9
+VXg3Qj3:=RVDS=5IXc5L<e3
+R9
+32
+Z140 !s108 1481404145.297317
+Z141 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/instruction_fetch.vhd|
+Z142 !s107 /home/fsjoyti/cpre381/00ALL/instruction_fetch.vhd|
+R13
+R14
+!s100 Y8mFN0>]M[KHjRgiOFmEP1
+!i10b 1
+Astructure
+R5
+R6
+DEx4 work 17 instruction_fetch 0 22 Xg3Qj3:=RVDS=5IXc5L<e3
+32
+l66
+L22
+VR3mNQR4mD5hNVbKO5_1`U1
+R9
+R140
+R141
+R142
+R13
+R14
+!s100 4PAzQ=]na3eAY4fhB]?HS2
+!i10b 1
+El_architecture
+Z143 w1479230260
+R5
+R6
+R3
+Z144 8/home/fsjoyti/cpre381/00ALL/l_architecture.vhd
+Z145 F/home/fsjoyti/cpre381/00ALL/l_architecture.vhd
+l0
+L9
+V4j2B1S4a3YLEBDk?8HOZ71
+R9
+32
+Z146 !s108 1481404145.640207
+Z147 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/l_architecture.vhd|
+Z148 !s107 /home/fsjoyti/cpre381/00ALL/l_architecture.vhd|
+R13
+R14
+!s100 =];US@^zYDhaV_`OY3<l90
+!i10b 1
+Astructure
+R5
+R6
+DEx4 work 14 l_architecture 0 22 4j2B1S4a3YLEBDk?8HOZ71
+32
+l35
+L17
+VVA9DW4Nhc71l<6`WUe1_^1
+R9
+R146
+R147
+R148
+R13
+R14
+!s100 VfcF2egOOJSLo=zP?6Mbe2
+!i10b 1
+Emem
+R87
+R101
+R100
+R5
+R6
+R3
+Z149 8/home/fsjoyti/cpre381/00ALL/mem.vhd
+Z150 F/home/fsjoyti/cpre381/00ALL/mem.vhd
+l0
+L24
+V78;E=^V<V=RHdMb8F@lQ30
+R9
+32
+Z151 !s108 1481404145.850683
+Z152 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/mem.vhd|
+Z153 !s107 /home/fsjoyti/cpre381/00ALL/mem.vhd|
+R13
+R14
+!s100 47Gn@Plzd5Tk7fIS:]bhf0
+!i10b 1
+Abehavioral
+R101
+R100
+R5
+R6
+DEx4 work 3 mem 0 22 78;E=^V<V=RHdMb8F@lQ30
+32
+l477
+L35
+V894IjmGj^2`]_TM]bG8Ve0
+R9
+R151
+R152
+R153
+R13
+R14
+!s100 lchAlhnmAa8KiN@KBMO751
+!i10b 1
+Emem_stage
+Z154 w1481218649
+R5
+R6
+R3
+Z155 8/home/fsjoyti/cpre381/00ALL/MEM_stage.vhd
+Z156 F/home/fsjoyti/cpre381/00ALL/MEM_stage.vhd
+l0
+L4
+Vi=I7i7nVaPT]dUGCD[gli1
+R9
+32
+Z157 !s108 1481404146.082149
+Z158 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/MEM_stage.vhd|
+Z159 !s107 /home/fsjoyti/cpre381/00ALL/MEM_stage.vhd|
+R13
+R14
+!s100 oER9Xb^NRFBik8a5zUAWH1
+!i10b 1
+Astructure
+R5
+R6
+DEx4 work 9 mem_stage 0 22 i=I7i7nVaPT]dUGCD[gli1
+32
+l88
+L42
+V@9=:<V<I<CUf;[dnjA2_=0
+R9
+R157
+R158
+R159
+R13
+R14
+!s100 9fj]OeIkzh8519ee]Nc;Y1
+!i10b 1
+Ememtowritebackreg
+Z160 w1480725591
+R5
+R6
+R3
+Z161 8/home/fsjoyti/cpre381/00ALL/memToWritbackReg.vhd
+Z162 F/home/fsjoyti/cpre381/00ALL/memToWritbackReg.vhd
+l0
+L6
+VdmXz?^BLfJP>YSog6m1Kd3
+R9
+32
+Z163 !s108 1481404146.277241
+Z164 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/memToWritbackReg.vhd|
+Z165 !s107 /home/fsjoyti/cpre381/00ALL/memToWritbackReg.vhd|
+R13
+R14
+!s100 `8n0m;A;;X?7Cn7H<JO<R2
+!i10b 1
+Astructure
+R5
+R6
+DEx4 work 17 memtowritebackreg 0 22 dmXz?^BLfJP>YSog6m1Kd3
+32
+l55
+L35
+VoVK50i@Y[PWKMoQ^^Vj<P1
+R9
+R163
+R164
+R165
+R13
+R14
+!s100 5FDXYKJMzz>@]g4ZE02AS2
+!i10b 1
+Emips_pipelined_processor
+Z166 w1481395314
+R5
+R6
+R3
+Z167 8/home/fsjoyti/cpre381/00ALL/MIPS_pipelined_processor.vhd
+Z168 F/home/fsjoyti/cpre381/00ALL/MIPS_pipelined_processor.vhd
+l0
+L9
+VgOLZEo?d3KI`Foh870R];3
+R9
+32
+Z169 !s108 1481404146.457791
+Z170 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/MIPS_pipelined_processor.vhd|
+Z171 !s107 /home/fsjoyti/cpre381/00ALL/MIPS_pipelined_processor.vhd|
+R13
+R14
+!s100 8Aj2M^=dDlnoC_5WTMdY=3
+!i10b 1
+Astructure
+R5
+R6
+DEx4 work 24 mips_pipelined_processor 0 22 gOLZEo?d3KI`Foh870R];3
+32
+l238
+L39
+VBz>3fW3b]g2hfilOf1;>g1
+R9
+R169
+R170
+R171
+R13
+R14
+!s100 <DnY?3m46^B;JHj1?U6oG3
+!i10b 1
+Emips_processor
+Z172 w1480906829
+R5
+R6
+R3
+Z173 8/home/fsjoyti/cpre381/00ALL/MIPS_processor.vhd
+Z174 F/home/fsjoyti/cpre381/00ALL/MIPS_processor.vhd
+l0
+L9
+V7?74hGf`SA]Ih6G<]OYf_2
+R9
+32
+Z175 !s108 1481580925.474762
+Z176 !s90 -reportprogress|300|-work|work|/home/fsjoyti/cpre381/00ALL/MIPS_processor.vhd|
+Z177 !s107 /home/fsjoyti/cpre381/00ALL/MIPS_processor.vhd|
+R13
+R14
+!s100 _IC;=1XLfUeMZMU_Rel9^2
+!i10b 1
+Astructure
+R5
+R6
+DEx4 work 14 mips_processor 0 22 7?74hGf`SA]Ih6G<]OYf_2
+l140
+L22
+VioRIA7`:J5]o_;YSI48mW2
+R9
+32
+R175
+R176
+R177
+R13
+R14
+!s100 ^BOg_L15o^QKhJh]3LO^B1
+!i10b 1
+Emips_register_file
+R87
+R5
+R6
+R3
+Z178 8/home/fsjoyti/cpre381/00ALL/MIPS_register_file.vhd
+Z179 F/home/fsjoyti/cpre381/00ALL/MIPS_register_file.vhd
+l0
+L9
+VCiEiL>eHbUa9<0c:@KUW12
+R9
+32
+Z180 !s108 1481404146.886086
+Z181 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/MIPS_register_file.vhd|
+Z182 !s107 /home/fsjoyti/cpre381/00ALL/MIPS_register_file.vhd|
+R13
+R14
+!s100 >Qh1g72:`2X?8MCdZSgf31
+!i10b 1
+Astructure
+R5
+R6
+DEx4 work 18 mips_register_file 0 22 CiEiL>eHbUa9<0c:@KUW12
+32
+l78
+L23
+VJo]_d0OA[0:3BBHC;aT`a1
+R9
+R180
+R181
+R182
+R13
+R14
+!s100 <njA4O6V<8ml5E6RM_5zd1
+!i10b 1
+Emultiplier
+R4
+R5
+R6
+R3
+Z183 8/home/fsjoyti/cpre381/00ALL/multiplier.vhd
+Z184 F/home/fsjoyti/cpre381/00ALL/multiplier.vhd
+l0
+L9
+V:E_KdZTh9i0>WZZIJQ:kk1
+R9
+32
+Z185 !s108 1481404147.311459
+Z186 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/multiplier.vhd|
+Z187 !s107 /home/fsjoyti/cpre381/00ALL/multiplier.vhd|
+R13
+R14
+!s100 :kRBV7SN]7c:iUVlfWTGX1
+!i10b 1
+Astructure
+R5
+R6
+DEx4 work 10 multiplier 0 22 :E_KdZTh9i0>WZZIJQ:kk1
+32
+l50
+L17
+Vc]==HD:OU2QcOeZah`WIU1
+R9
+R185
+R186
+R187
+R13
+R14
+!s100 Zj@iOI>IEN4OQnMdKfR=D0
+!i10b 1
+Emultiplier_unsigned
+R4
+R5
+R6
+R3
+Z188 8/home/fsjoyti/cpre381/00ALL/multiplier_unsigned.vhd
+Z189 F/home/fsjoyti/cpre381/00ALL/multiplier_unsigned.vhd
+l0
+L9
+VnmfXXWH7`_V6H8I]^:<VO0
+R9
+32
+Z190 !s108 1481404147.509509
+Z191 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/multiplier_unsigned.vhd|
+Z192 !s107 /home/fsjoyti/cpre381/00ALL/multiplier_unsigned.vhd|
+R13
+R14
+!s100 E:z^JdSZ9[O7zQ5IN_H`e0
+!i10b 1
+Amixed
+R5
+R6
+DEx4 work 19 multiplier_unsigned 0 22 nmfXXWH7`_V6H8I]^:<VO0
+32
+l33
+L16
+V:l3bH2bcj0cVHLFPX0`8P1
+R9
+R190
+R191
+R192
+R13
+R14
+!s100 d^V>K9ockhOf_VX]T<OIC1
+!i10b 1
+Emux2to1
+R4
+R5
+R6
+R3
+Z193 8/home/fsjoyti/cpre381/00ALL/mux2to1.vhd
+Z194 F/home/fsjoyti/cpre381/00ALL/mux2to1.vhd
+l0
+L9
+VN8?B20W5z5b8l[SV@T4RZ0
+R9
+32
+Z195 !s108 1481404147.700213
+Z196 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/mux2to1.vhd|
+Z197 !s107 /home/fsjoyti/cpre381/00ALL/mux2to1.vhd|
+R13
+R14
+!s100 H9[EeN2fBm^_Yek<Oj4Z31
+!i10b 1
+Adataflow
+R5
+R6
+DEx4 work 7 mux2to1 0 22 N8?B20W5z5b8l[SV@T4RZ0
+32
+l18
+L17
+VNYSkJ@=>z:JXM18b>dk5S1
+R9
+R195
+R196
+R197
+R13
+R14
+!s100 0k_A`EL7Cf;^_a`0T26FY2
+!i10b 1
+Emux32to1
+R87
+R5
+R6
+R3
+Z198 8/home/fsjoyti/cpre381/00ALL/mux32to1.vhd
+Z199 F/home/fsjoyti/cpre381/00ALL/mux32to1.vhd
+l0
+L9
+VH=nni`2E[Jl]FlJS?lkac1
+R9
+32
+Z200 !s108 1481404147.883508
+Z201 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/mux32to1.vhd|
+Z202 !s107 /home/fsjoyti/cpre381/00ALL/mux32to1.vhd|
+R13
+R14
+!s100 S@Ro8[;4XbA`R6AclXFOS2
+!i10b 1
+Adataflow
+R5
+R6
+DEx4 work 8 mux32to1 0 22 H=nni`2E[Jl]FlJS?lkac1
+32
+l48
+L46
+VRKobMFD:@o1ZA;gg4gVXQ1
+R9
+R200
+R201
+R202
+R13
+R14
+!s100 nYRg?3YnF<5]==foV=V4K0
+!i10b 1
+Eonescomp
+R4
+R5
+R6
+R3
+Z203 8/home/fsjoyti/cpre381/00ALL/onesComp.vhd
+Z204 F/home/fsjoyti/cpre381/00ALL/onesComp.vhd
+l0
+L9
+VS82aI@SQNS6e?DO5QbIjR0
+R9
+32
+Z205 !s108 1481404148.060822
+Z206 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/onesComp.vhd|
+Z207 !s107 /home/fsjoyti/cpre381/00ALL/onesComp.vhd|
+R13
+R14
+!s100 jzLj8o:@dG<cLg2CTYZTB2
+!i10b 1
+Adataflow
+R5
+R6
+DEx4 work 8 onescomp 0 22 S82aI@SQNS6e?DO5QbIjR0
+32
+l16
+L15
+VkRgMIG`OD`?fk[PzH:i950
+R9
+R205
+R206
+R207
+R13
+R14
+!s100 gaJ4n6<3oAfFDhj@BakFQ2
+!i10b 1
+Eor2
+Z208 w1471487016
+R5
+R6
+R3
+Z209 8/home/fsjoyti/cpre381/00ALL/or2.vhd
+Z210 F/home/fsjoyti/cpre381/00ALL/or2.vhd
+l0
+L21
+Vk7f3`Jzi`[F;b8Rfj=5e61
+R9
+32
+Z211 !s108 1481404148.236332
+Z212 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/or2.vhd|
+Z213 !s107 /home/fsjoyti/cpre381/00ALL/or2.vhd|
+R13
+R14
+!s100 ZVmT`b[V=<MZaG8><EO<P0
+!i10b 1
+Adataflow
+R5
+R6
+DEx4 work 3 or2 0 22 k7f3`Jzi`[F;b8Rfj=5e61
+32
+l30
+L29
+V?T?0llj[90AUch]8WhO2M1
+R9
+R211
+R212
+R213
+R13
+R14
+!s100 V3K4bIY=zZ1[`5_8eaH]c1
+!i10b 1
+Eregister_1bit
+Z214 w1480714720
+R5
+R6
+R3
+Z215 8/home/fsjoyti/cpre381/00ALL/register_1bit.vhd
+Z216 F/home/fsjoyti/cpre381/00ALL/register_1bit.vhd
+l0
+L4
+VWf]NW_JN_0koWVlJCe5FI3
+R9
+32
+Z217 !s108 1481404148.420491
+Z218 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/register_1bit.vhd|
+Z219 !s107 /home/fsjoyti/cpre381/00ALL/register_1bit.vhd|
+R13
+R14
+!s100 HV5ISOoLCMT[3_foCB3nD0
+!i10b 1
+Amixed
+R5
+R6
+DEx4 work 13 register_1bit 0 22 Wf]NW_JN_0koWVlJCe5FI3
+32
+l16
+L12
+VzI9lhkEMS4DNk?Ge`2f6Y2
+R9
+R217
+R218
+R219
+R13
+R14
+!s100 0Rj[QT57G62hTGUcg1IQK3
+!i10b 1
+Eregister_nbit
+R4
+R5
+R6
+R3
+Z220 8/home/fsjoyti/cpre381/00ALL/register_Nbit.vhd
+Z221 F/home/fsjoyti/cpre381/00ALL/register_Nbit.vhd
+l0
+L9
+VRzkmi4PA6=]cDJJggHf@g1
+R9
+32
+Z222 !s108 1481404148.606061
+Z223 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/register_Nbit.vhd|
+Z224 !s107 /home/fsjoyti/cpre381/00ALL/register_Nbit.vhd|
+R13
+R14
+!s100 G>Naggo9=`P3f2:ff9@z[0
+!i10b 1
+Amixed
+R5
+R6
+DEx4 work 13 register_nbit 0 22 Rzkmi4PA6=]cDJJggHf@g1
+32
+l22
+L18
+V@;HUn<ha7@h0>j0Bi^XJ;0
+R9
+R222
+R223
+R224
+R13
+R14
+!s100 4]I3hLR;`2c<Uhi=I_9T70
+!i10b 1
+Es_architecture
+R87
+R5
+R6
+R3
+Z225 8/home/fsjoyti/cpre381/00ALL/s_architecture.vhd
+Z226 F/home/fsjoyti/cpre381/00ALL/s_architecture.vhd
+l0
+L9
+ViRQ<MD^1eolohe3@k<SE<3
+R9
+32
+Z227 !s108 1481404148.788469
+Z228 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/s_architecture.vhd|
+Z229 !s107 /home/fsjoyti/cpre381/00ALL/s_architecture.vhd|
+R13
+R14
+!s100 CgXmdHg4keXK9E:zcY]<>2
+!i10b 1
+Astructure
+R5
+R6
+DEx4 work 14 s_architecture 0 22 iRQ<MD^1eolohe3@k<SE<3
+32
+l32
+L17
+VF0Xk?WC5HDgB`lCco4CQm3
+R9
+R227
+R228
+R229
+R13
+R14
+!s100 g?Yc41^1CP9VZz<U`MZ860
+!i10b 1
+Esb_decoder
+R87
+R5
+R6
+R3
+Z230 8/home/fsjoyti/cpre381/00ALL/sb_decoder.vhd
+Z231 F/home/fsjoyti/cpre381/00ALL/sb_decoder.vhd
+l0
+L9
+VT`^:eXg18BNDn]:6R8^093
+R9
+32
+Z232 !s108 1481404148.994367
+Z233 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/sb_decoder.vhd|
+Z234 !s107 /home/fsjoyti/cpre381/00ALL/sb_decoder.vhd|
+R13
+R14
+!s100 a[N7jC4`5[iVTGHGUGk<T2
+!i10b 1
+Adataflow
+R5
+R6
+DEx4 work 10 sb_decoder 0 22 T`^:eXg18BNDn]:6R8^093
+32
+l16
+L14
+VgA^@276;HmYg:63m_m6eM3
+R9
+R232
+R233
+R234
+R13
+R14
+!s100 C_czDi]1Y`gc?7RQJFWMV0
+!i10b 1
+Esh_decoder
+R87
+R5
+R6
+R3
+Z235 8/home/fsjoyti/cpre381/00ALL/sh_decoder.vhd
+Z236 F/home/fsjoyti/cpre381/00ALL/sh_decoder.vhd
+l0
+L9
+V;nUkj4g9I2]?jCdj;1S=^2
+R9
+32
+Z237 !s108 1481404149.180880
+Z238 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/sh_decoder.vhd|
+Z239 !s107 /home/fsjoyti/cpre381/00ALL/sh_decoder.vhd|
+R13
+R14
+!s100 ^F;0>l[lWl_eLkl]8QDBU1
+!i10b 1
+Adataflow
+R5
+R6
+DEx4 work 10 sh_decoder 0 22 ;nUkj4g9I2]?jCdj;1S=^2
+32
+l16
+L14
+V7fG[2VN=Y149RZhlg3@mB0
+R9
+R237
+R238
+R239
+R13
+R14
+!s100 YB<XIZP;hkgj_>;?;;F[d3
+!i10b 1
+Etb_exstage
+Z240 w1480898205
+R5
+R6
+R3
+Z241 8/home/fsjoyti/cpre381/00ALL/tb_Exstage.vhd
+Z242 F/home/fsjoyti/cpre381/00ALL/tb_Exstage.vhd
+l0
+L10
+V8O7cg>h=Xjd`6W0PT>NWG0
+R9
+32
+Z243 !s108 1481404149.370225
+Z244 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/tb_Exstage.vhd|
+Z245 !s107 /home/fsjoyti/cpre381/00ALL/tb_Exstage.vhd|
+R13
+R14
+!s100 K8`90jz@RUL?m@VB>JJO00
+!i10b 1
+Abehavior
+R5
+R6
+DEx4 work 10 tb_exstage 0 22 8O7cg>h=Xjd`6W0PT>NWG0
+l91
+L14
+V8fgPd:?Z:Y^Ca_R0ee@fk1
+R9
+32
+R243
+R244
+R245
+R13
+R14
+!s100 FHhf@=_FQmL^6bW[fFQ072
+!i10b 1
+Etb_idstage
+Z246 w1481404079
+R5
+R6
+R3
+Z247 8/home/fsjoyti/cpre381/00ALL/tb_IDstage.vhd
+Z248 F/home/fsjoyti/cpre381/00ALL/tb_IDstage.vhd
+l0
+L10
+VVJPJfYPD;@A?:HQOz5i5>2
+R9
+32
+Z249 !s108 1481404149.550468
+Z250 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/tb_IDstage.vhd|
+Z251 !s107 /home/fsjoyti/cpre381/00ALL/tb_IDstage.vhd|
+R13
+R14
+!s100 VKX1I3kh]ENe9ffh<YD_T1
+!i10b 1
+Abehavior
+R5
+R6
+DEx4 work 10 tb_idstage 0 22 VJPJfYPD;@A?:HQOz5i5>2
+l84
+L14
+VXBJz>z8SHAZW<U0ITL_[00
+R9
+32
+R249
+R250
+R251
+R13
+R14
+!s100 lO=M5[JXGEZkN>fWWj:4a1
+!i10b 1
+Etb_ifstage
+w1481397665
+R5
+R6
+R3
+8/home/fsjoyti/cpre381/00ALL/tb_IFstage.vhd
+F/home/fsjoyti/cpre381/00ALL/tb_IFstage.vhd
+l0
+L10
+Vhd^_4`OE@3i;f33MfSTmf3
+R9
+32
+R13
+R14
+!s100 7mC51Hd;FYKV=Yk8IU:6h2
+!i10b 1
+!s108 1481404149.736008
+!s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/tb_IFstage.vhd|
+!s107 /home/fsjoyti/cpre381/00ALL/tb_IFstage.vhd|
+Etb_memstage
+Z252 w1480898218
+R5
+R6
+R3
+Z253 8/home/fsjoyti/cpre381/00ALL/tb_MemStage.vhd
+Z254 F/home/fsjoyti/cpre381/00ALL/tb_MemStage.vhd
+l0
+L10
+V[3g9[lQS8dA0ZERBNjbb81
+R9
+32
+Z255 !s108 1481404149.908546
+Z256 !s90 -reportprogress|30|-work|work|/home/fsjoyti/cpre381/00ALL/tb_MemStage.vhd|
+Z257 !s107 /home/fsjoyti/cpre381/00ALL/tb_MemStage.vhd|
+R13
+R14
+!s100 A3GkWLGa1l8^>;B8>NP[K3
+!i10b 1
+Abehavior
+R5
+R6
+DEx4 work 11 tb_memstage 0 22 [3g9[lQS8dA0ZERBNjbb81
+l64
+L14
+VXNQR^aDd7WbjKdQ]^UQX_3
+R9
+32
+R255
+R256
+R257
+R13
+R14
+!s100 f>F0<KCO]FH7@Nha3MocD3
+!i10b 1
+Etb_pipereg
+Z258 w1481580825
+R5
+R6
+R3
+Z259 8/home/fsjoyti/cpre381/00ALL/testbench_pipeline_registers.vhd
+Z260 F/home/fsjoyti/cpre381/00ALL/testbench_pipeline_registers.vhd
+l0
+L4
+V<0h?G2O8YG42SZzjN]MH41
+R9
+32
+Z261 !s108 1481580825.600937
+Z262 !s90 -reportprogress|300|-work|work|/home/fsjoyti/cpre381/00ALL/testbench_pipeline_registers.vhd|
+Z263 !s107 /home/fsjoyti/cpre381/00ALL/testbench_pipeline_registers.vhd|
+R13
+R14
+!s100 i:;U]7@g0BW58:]a;P54Z2
+!i10b 1
+Abehavior
+R5
+R6
+DEx4 work 10 tb_pipereg 0 22 <0h?G2O8YG42SZzjN]MH41
+32
+l177
+L9
+VjX3kTK2YP;c[lIfBj^8mi3
+R9
+R261
+R262
+R263
+R13
+R14
+!s100 @PGnWJPmK=TTW@f[bEHmT0
+!i10b 1

@@ -1,0 +1,56 @@
+ ------------------ON the third Level (i = 1)--------
+  variable sel : integer := 1;   
+ while(sel = '1') loop
+           
+     and_lev_3 : and2
+
+      PORT MAP ( i_A => X(i - 1),
+                i_B => Y(2),
+                 o_F => s_and3(i));
+             
+     fullAdder_level3 : fullAdder_b 
+
+      port MAP(C_in     => s_C1,
+                A        => s_R(i-1),
+                B        => s_and3(i),
+                C_out    => s_C2,  
+                S_out    => s_R(i));
+
+
+                R(2)  <= s_R(1);
+                
+    sel = '2';
+end loop;
+      
+   ------------------ON the fourth Level (i = 2)--------
+   
+  while(sel = '2') loop         
+        and_lev_4 : and2
+
+          PORT MAP ( i_A => X(i - 2),
+                     i_B => Y(3),
+                     o_F => s_and4(i));
+             
+   fullAdder_level4 : fullAdder_b 
+
+            port MAP(C_in     => s_C2,
+                      A        => s_R(i-2),
+                      B        => s_and4(i),
+                      C_out    => s_C3,  
+                      S_out    => s_R(i));
+
+
+      R(3)  <= s_R(2);
+      
+      R(4) <= s_R(3);
+      
+      R(5) <= s_R(4);
+      
+      R(6)  <= s_R(5);
+      
+      R(7)  <= s_R(6);
+      
+ sel := '3'
+ 
+ end loop;
+      

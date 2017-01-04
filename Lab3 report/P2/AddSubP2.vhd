@@ -1,0 +1,106 @@
+-------------------------------------------------------------------------
+-- Souparni Agnihotri
+-------------------------------------------------------------------------
+
+
+-- AddSub.vhd
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+use work.all;
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity AddSubP2 is
+
+  port(nAdd_Sub  : in std_logic;
+       A         : in std_logic;
+       B         : in std_logic;
+       ALUSrc    : in std_logic; 
+       Y         : out std_logic;
+       Z         : out std_logic);
+
+end AddSubP2;
+
+architecture dataflow of AddSubP2 is
+  
+ component multiplexer
+   
+  port(x         : in std_logic;
+       A         : in std_logic;
+       B         : in std_logic;
+       Y         : out std_logic);
+
+ end component;
+
+ component inv
+   
+  port(i_A          : in std_logic;
+       o_F          : out std_logic);
+       
+ end component;
+
+ component fullAdder_b
+ 
+
+  port(C_in      : in std_logic;
+       A         : in std_logic;
+       B         : in std_logic;
+       C_out     : out std_logic;
+       S_out     : out std_logic);
+
+ end component;
+
+signal sValue_inv1, sValue_inv2, sValue_Mux1, sValue_Mux2 : std_logic;
+  
+begin
+  
+   ---------------------------------------------------------------------------
+  -- Level 1: Calculate not of B
+  ---------------------------------------------------------------------------
+  
+  inv_1 : inv
+  
+  port MAP(i_A    => B,
+          o_F     => sValue_inv1);
+           
+  ---------------------------------------------------------------------------
+  -- Level 2: Calculate into MUX
+  ---------------------------------------------------------------------------
+  
+  multiplexer_1 : multiplexer
+  
+  port MAP(x     => ALUSrc,
+       A         => B,
+       B         => sValue_inv1,
+       Y         => sValue_Mux1);
+       
+       
+ inv_2 : inv
+  
+  port MAP(i_A    => sValue_Mux1,
+          o_F     => sValue_inv2);
+          
+   
+  multiplexer_2 : multiplexer
+  
+  port MAP(x     => nAdd_Sub,
+       A         => sValue_Mux1,
+       B         => sValue_inv2,
+       Y         => sValue_Mux2);
+       
+           
+           
+  ---------------------------------------------------------------------------
+  -- Level 3: Putting Values into full adder
+  ---------------------------------------------------------------------------  
+        
+  fullAdder_1 : fullAdder_b
+  
+  port MAP(C_in   => nAdd_Sub,
+       A         => A,
+       B         => sValue_Mux2,
+       C_out     => Y,
+       S_out     => Z);
+           
+  
+end dataflow;

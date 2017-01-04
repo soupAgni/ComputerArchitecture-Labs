@@ -1,0 +1,717 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/fsjoyti/cpre381/Project-A
+T_opt
+Vhn3hCk8?K:id@z`IiN_]K1
+Z1 04 33 9 work barrel_shifter_arithmetic_logical structure 1
+=1-000000000000-57fd0fb7-a3947-1342
+Z2 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z3 OL;O;10.1c;51
+T_opt1
+VXNB^0797;AGOA>U1IC3O70
+04 12 9 work n_full_adder structure 1
+=1-000000000000-57fbfd67-c358d-25b7
+R2
+n@_opt1
+R3
+Z4 d/home/fsjoyti/cpre381/Project-A
+T_opt2
+VDDY_UnOe>UE3PP2UkZgjf3
+R1
+=1-000000000000-57fc0f22-103a5-2cb1
+R2
+n@_opt2
+R3
+R4
+Ealu_1bit
+Z5 w1475605062
+Z6 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z7 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R4
+Z8 8ALU_1bit - Copy.vhd
+Z9 FALU_1bit - Copy.vhd
+l0
+L5
+VlNKQG4z1Q9l8[iaEbKk^i1
+Z10 OL;C;10.1c;51
+32
+Z11 !s108 1475782638.639322
+Z12 !s90 -reportprogress|300|-work|work|2%3A1_multiplexer - Copy.vhd|2%3A1_multiplexer.vhd|5-1 mux - Copy.vhd|5-1 mux.vhd|ALU32bit.vhd|ALU_1bit - Copy.vhd|ALU_1bit_P2 - Copy.vhd|ALU_1bit_P2.vhd|and2.vhd|fullAdder_b.vhd|inv.vhd|multiplexer.vhd|or2.vhd|xor2.vhd|
+Z13 !s107 xor2.vhd|or2.vhd|multiplexer.vhd|inv.vhd|fullAdder_b.vhd|and2.vhd|ALU_1bit_P2.vhd|ALU_1bit_P2 - Copy.vhd|ALU_1bit - Copy.vhd|ALU32bit.vhd|5-1 mux.vhd|5-1 mux - Copy.vhd|2%3A1_multiplexer.vhd|2%3A1_multiplexer - Copy.vhd|
+Z14 o-work work
+Z15 tExplicit 1
+!s100 21DlYRL@94Pc<5=gn90003
+!i10b 1
+Adataflow
+R6
+R7
+DEx4 work 8 alu_1bit 0 22 lNKQG4z1Q9l8[iaEbKk^i1
+l66
+L18
+V1:^dln<k0znP<jDa?nlF=3
+R10
+32
+R11
+R12
+R13
+R14
+R15
+!s100 ^KJNW_lN33Ki`SH=nDX<O3
+!i10b 1
+Ealu_1bit_p2
+Z16 w1475613646
+R6
+R7
+R4
+Z17 8ALU_1bit_P2.vhd
+Z18 FALU_1bit_P2.vhd
+l0
+L5
+VS[`<?ZfcBoM2k@`Mi`c_W3
+R10
+32
+R11
+R12
+R13
+R14
+R15
+!s100 5kP;l^ekXa]n>XBZbda4C1
+!i10b 1
+Adataflow
+R6
+R7
+DEx4 work 11 alu_1bit_p2 0 22 S[`<?ZfcBoM2k@`Mi`c_W3
+32
+l78
+L20
+VfVaDVXn5@;bKd3BnVM>A;1
+R10
+R11
+R12
+R13
+R14
+R15
+!s100 ^^UKMjLg3V9c8?fZ?dYH71
+!i10b 1
+Ealu_32bit_p2
+w1475782628
+R6
+R7
+R4
+8ALU32bit.vhd
+FALU32bit.vhd
+l0
+L5
+V3N>zh_8@WT[6_3]4VBAo;3
+R10
+32
+R11
+R12
+R13
+R14
+R15
+!s100 V[oV4G8lgo==PzahF1Zzn2
+!i10b 1
+Adataflow
+w1475876307
+R6
+R7
+DEx4 work 12 alu_32bit_p2 0 22 3N>zh_8@WT[6_3]4VBAo;3
+Z19 8/home/fsjoyti/cpre381/Project-A/ALU_64bit.vhd
+Z20 F/home/fsjoyti/cpre381/Project-A/ALU_64bit.vhd
+l48
+L20
+VdJT1;_<_>zXIA4HY:38OV2
+R10
+32
+Z21 !s90 -reportprogress|300|-work|work|/home/fsjoyti/cpre381/Project-A/ALU_64bit.vhd|
+R14
+R15
+Z22 !s107 /home/fsjoyti/cpre381/Project-A/ALU_64bit.vhd|
+!s108 1475876308.334976
+!s100 4Gn:zIDgfWn<<LHWN_9Wl2
+!i10b 1
+Ealu_64bit_p2
+Z23 w1475876332
+R6
+R7
+R4
+R19
+R20
+l0
+L5
+VNjS9e<:b;6ZK1_kV^llho0
+R10
+32
+Z24 !s108 1475876333.119446
+R21
+R22
+R14
+R15
+!s100 ThKKc>PVo3H_P1ccVkjJ?3
+!i10b 1
+Adataflow
+R6
+R7
+DEx4 work 12 alu_64bit_p2 0 22 NjS9e<:b;6ZK1_kV^llho0
+l48
+L20
+V]LBm;Mh?=FU=aX:2=E15M3
+R10
+32
+R24
+R21
+R22
+R14
+R15
+!s100 C:T9493L1_URBOSLMilEz3
+!i10b 1
+Eand2
+R5
+R6
+R7
+R4
+Z25 8and2.vhd
+Z26 Fand2.vhd
+l0
+L21
+VhdN5CX>GzelGC?Caa7z3z1
+R10
+32
+R11
+R12
+R13
+R14
+R15
+!s100 lO?WAJ[HO55_;GBaC]4:T3
+!i10b 1
+Adataflow
+R6
+R7
+DEx4 work 4 and2 0 22 hdN5CX>GzelGC?Caa7z3z1
+32
+l30
+L29
+VQhF5]JHAgE[NE0nO9RHd@2
+R10
+R11
+R12
+R13
+R14
+R15
+!s100 :JPJPAKnk?gQ;0GJ72LF72
+!i10b 1
+Parray2d
+R6
+R7
+w1475872826
+R4
+8/home/fsjoyti/cpre381/Project-A/array2D.vhd
+F/home/fsjoyti/cpre381/Project-A/array2D.vhd
+l0
+L3
+VzlG?ifV?T;US2E]c6T2J91
+R10
+32
+R14
+R15
+!s100 kP]jaCRzDC=1m>VWNlJo53
+!s108 1475872826.646589
+!s90 -reportprogress|300|-work|work|/home/fsjoyti/cpre381/Project-A/array2D.vhd|
+!s107 /home/fsjoyti/cpre381/Project-A/array2D.vhd|
+!i10b 1
+Ebarrel_shifter
+Z27 w1476063628
+R6
+R7
+R4
+Z28 8/home/fsjoyti/cpre381/Project-A/barrel_shifter.vhd
+Z29 F/home/fsjoyti/cpre381/Project-A/barrel_shifter.vhd
+l0
+L4
+V3KC5I<4<iZMT7kKL6E;1G1
+R10
+32
+Z30 !s108 1476063628.807010
+Z31 !s90 -reportprogress|300|-work|work|/home/fsjoyti/cpre381/Project-A/barrel_shifter.vhd|
+Z32 !s107 /home/fsjoyti/cpre381/Project-A/barrel_shifter.vhd|
+R14
+R15
+!s100 z7P[kg`nODH40[FANg?8^3
+!i10b 1
+Astructure
+R6
+R7
+DEx4 work 14 barrel_shifter 0 22 3KC5I<4<iZMT7kKL6E;1G1
+l25
+L12
+V2bkVDn;cl`YT9TK<8W5^D1
+R10
+32
+R30
+R31
+R32
+R14
+R15
+!s100 7o6z`5NfBh[7PA58;ie]z1
+!i10b 1
+Ebarrel_shifter_arithmetic
+Z33 w1476130286
+R6
+R7
+R4
+Z34 8/home/fsjoyti/cpre381/Project-A/barrel_shifter_arithmetic.vhd
+Z35 F/home/fsjoyti/cpre381/Project-A/barrel_shifter_arithmetic.vhd
+l0
+L5
+VfB@EVeS2W9Jj6_0HUL]nF0
+R10
+32
+Z36 !s108 1476130286.414532
+Z37 !s90 -reportprogress|300|-work|work|/home/fsjoyti/cpre381/Project-A/barrel_shifter_arithmetic.vhd|
+Z38 !s107 /home/fsjoyti/cpre381/Project-A/barrel_shifter_arithmetic.vhd|
+R14
+R15
+!s100 3lViilA4fPhhERN`Nho762
+!i10b 1
+Astructure
+R6
+R7
+DEx4 work 25 barrel_shifter_arithmetic 0 22 fB@EVeS2W9Jj6_0HUL]nF0
+l25
+L12
+VeHVc81G=H0@TJdeTIF;2:2
+R10
+32
+R36
+R37
+R38
+R14
+R15
+!s100 S7LiI;M3eN8RYHJ1MR<m^1
+!i10b 1
+Ebarrel_shifter_arithmetic_logical
+Z39 w1476136720
+R6
+R7
+R4
+Z40 8/home/fsjoyti/cpre381/Project-A/barrel_shifter_final.vhd
+Z41 F/home/fsjoyti/cpre381/Project-A/barrel_shifter_final.vhd
+l0
+L6
+VDloCkn]XOZYl<AFQ[m_Ln3
+R10
+32
+Z42 !s108 1476202413.951562
+Z43 !s90 -reportprogress|300|-work|work|/home/fsjoyti/cpre381/Project-A/barrel_shifter_final.vhd|
+Z44 !s107 /home/fsjoyti/cpre381/Project-A/barrel_shifter_final.vhd|
+R14
+R15
+!s100 ?CP;8EBBnW2_H<cYRLb^b2
+!i10b 1
+Astructure
+R6
+R7
+DEx4 work 33 barrel_shifter_arithmetic_logical 0 22 DloCkn]XOZYl<AFQ[m_Ln3
+l66
+L20
+Vai6Y=J9GjeQm7VgIM]Gc90
+R10
+32
+R42
+R43
+R44
+R14
+R15
+!s100 0ME`m^hT5Qei@Ib5Z^9Va3
+!i10b 1
+Efull_adder
+Z45 w1472834061
+R6
+R7
+R4
+Z46 8/home/fsjoyti/cpre381/Project-A/full_adder.vhd
+Z47 F/home/fsjoyti/cpre381/Project-A/full_adder.vhd
+l0
+L5
+V8gO3QAX<PK^0HQXKA3f;k3
+R10
+32
+Z48 !s108 1476131589.386557
+Z49 !s90 -reportprogress|300|-work|work|/home/fsjoyti/cpre381/Project-A/full_adder.vhd|
+Z50 !s107 /home/fsjoyti/cpre381/Project-A/full_adder.vhd|
+R14
+R15
+!s100 S56kFfI]eWI^eaNT8D:gL3
+!i10b 1
+Astructure
+R6
+R7
+DEx4 work 10 full_adder 0 22 8gO3QAX<PK^0HQXKA3f;k3
+l44
+L16
+V6c0FZjH_d5]gc6B0Xc8j63
+R10
+32
+R48
+R49
+R50
+R14
+R15
+!s100 [X>M<AV1giHUZOD2D09Q91
+!i10b 1
+Efulladder_b
+R5
+R6
+R7
+R4
+Z51 8/home/fsjoyti/cpre381/Project-A/fullAdder_b.vhd
+Z52 F/home/fsjoyti/cpre381/Project-A/fullAdder_b.vhd
+l0
+L13
+VFdk=VdnW4_1MdEmUIY>TR0
+R10
+32
+Z53 !s108 1476130412.731775
+Z54 !s90 -reportprogress|300|-work|work|/home/fsjoyti/cpre381/Project-A/fullAdder_b.vhd|
+Z55 !s107 /home/fsjoyti/cpre381/Project-A/fullAdder_b.vhd|
+R14
+R15
+!s100 VG05?Bm0]RIcl>;IdeJ300
+!i10b 1
+Adataflow
+R6
+R7
+DEx4 work 11 fulladder_b 0 22 Fdk=VdnW4_1MdEmUIY>TR0
+l46
+L23
+VGK>`IIWQ6V<lIg7aKY1HL2
+R10
+32
+R53
+R54
+R55
+R14
+R15
+!s100 430[c3HBk5gYi2Y=8=2le1
+!i10b 1
+Einv
+R5
+R6
+R7
+R4
+Z56 8inv.vhd
+Z57 Finv.vhd
+l0
+L21
+VMkn7>YO6<B1036fAJMRlE3
+R10
+32
+R11
+R12
+R13
+R14
+R15
+!s100 5Z7EIzZeHI^h0SS_n@KG>2
+!i10b 1
+Adataflow
+R6
+R7
+DEx4 work 3 inv 0 22 Mkn7>YO6<B1036fAJMRlE3
+32
+l29
+L28
+VEIZcU:L:5^MUKbmz]FJQe0
+R10
+R11
+R12
+R13
+R14
+R15
+!s100 oJSg@l>g_mjnH40bC_SFK0
+!i10b 1
+Emultiplexer
+R5
+R6
+R7
+R4
+Z58 8/home/fsjoyti/cpre381/Project-A/multiplexer.vhd
+Z59 F/home/fsjoyti/cpre381/Project-A/multiplexer.vhd
+l0
+L21
+VN67lZe@2cDoAFeFI@I2OX2
+R10
+32
+Z60 !s108 1475968680.803511
+Z61 !s90 -reportprogress|300|-work|work|/home/fsjoyti/cpre381/Project-A/multiplexer.vhd|
+Z62 !s107 /home/fsjoyti/cpre381/Project-A/multiplexer.vhd|
+R14
+R15
+!s100 2WIW1:f69io:R`Fga>ZhG0
+!i10b 1
+Adataflow
+R6
+R7
+DEx4 work 11 multiplexer 0 22 N67lZe@2cDoAFeFI@I2OX2
+l51
+L30
+V1VHLkgbn2Unzc?SAR7RV42
+R10
+32
+R60
+R61
+R62
+R14
+R15
+!s100 W3XcO=n33AF@cZ1=hfL9Q0
+!i10b 1
+Emultiplier
+Z63 w1475872999
+Z64 DPx4 work 7 array2d 0 22 zlG?ifV?T;US2E]c6T2J91
+R6
+R7
+R4
+Z65 8/home/fsjoyti/cpre381/Project-A/multiplier.vhd
+Z66 F/home/fsjoyti/cpre381/Project-A/multiplier.vhd
+l0
+L6
+VBQ?m`Gn=QonjGV]W^BK5N3
+R10
+32
+Z67 !s108 1475872999.704932
+Z68 !s90 -reportprogress|300|-work|work|/home/fsjoyti/cpre381/Project-A/multiplier.vhd|
+Z69 !s107 /home/fsjoyti/cpre381/Project-A/multiplier.vhd|
+R14
+R15
+!s100 W[]19V[gA1Ok`gLQQ0cUb0
+!i10b 1
+Astructure
+R64
+R6
+R7
+DEx4 work 10 multiplier 0 22 BQ?m`Gn=QonjGV]W^BK5N3
+l42
+L14
+V[kA>59QeBzmOMTII7Ub8I0
+R10
+32
+R67
+R68
+R69
+R14
+R15
+!s100 2CZ_je6DiWeXOQj2e_@Hb2
+!i10b 1
+Emux4to1
+Z70 w1476067395
+R6
+R7
+R4
+Z71 8/home/fsjoyti/cpre381/Project-A/4to1mux.vhd
+Z72 F/home/fsjoyti/cpre381/Project-A/4to1mux.vhd
+l0
+L5
+V<QECJA@[7dbV[OZ`ZAB]11
+R10
+32
+Z73 !s108 1476068153.919085
+Z74 !s90 -reportprogress|300|-work|work|/home/fsjoyti/cpre381/Project-A/4to1mux.vhd|
+Z75 !s107 /home/fsjoyti/cpre381/Project-A/4to1mux.vhd|
+R14
+R15
+!s100 40TdoYDGiBHJYiM`1JSc=0
+!i10b 1
+Abehavioral
+R6
+R7
+DEx4 work 7 mux4to1 0 22 <QECJA@[7dbV[OZ`ZAB]11
+l18
+L17
+VfT3XSX@9bOZP@A[_:=WmF0
+R10
+32
+R73
+R74
+R75
+R14
+R15
+!s100 kOA`@M6L2[<O;T?hN<QRi2
+!i10b 1
+Emux_2to1_top
+R5
+R6
+R7
+R4
+Z76 8/home/fsjoyti/cpre381/Project-A/2%3A1_multiplexer.vhd
+Z77 F/home/fsjoyti/cpre381/Project-A/2%3A1_multiplexer.vhd
+l0
+L6
+V?ela8B<=jcPn[J^nHV?hz3
+R10
+32
+Z78 !s108 1476130169.811443
+Z79 !s90 -reportprogress|300|-work|work|/home/fsjoyti/cpre381/Project-A/2%3A1_multiplexer.vhd|
+Z80 !s107 /home/fsjoyti/cpre381/Project-A/2%3A1_multiplexer.vhd|
+R14
+R15
+!s100 =d7[dSjkmmU42=j7fFfCZ2
+!i10b 1
+Abehavioral
+R6
+R7
+DEx4 work 12 mux_2to1_top 0 22 ?ela8B<=jcPn[J^nHV?hz3
+l15
+L14
+Vi9Nj3E6>2N0mJ`Y[=B1TT3
+R10
+32
+R78
+R79
+R80
+R14
+R15
+!s100 e:V5Ulg^K4AjbSIGG>@hG0
+!i10b 1
+Emux_5to1_top
+Z81 w1475607624
+R6
+R7
+R4
+Z82 85-1 mux.vhd
+Z83 F5-1 mux.vhd
+l0
+L4
+VzddEIo5JAG7mK:_oX6RNW2
+R10
+32
+R11
+R12
+R13
+R14
+R15
+!s100 L9VlRG:h[YR>4G`<f5^jc0
+!i10b 1
+Abehavioral
+R6
+R7
+DEx4 work 12 mux_5to1_top 0 22 zddEIo5JAG7mK:_oX6RNW2
+32
+l16
+L15
+V:<zzFl0W_KOA?HUYg3@iK1
+R10
+R11
+R12
+R13
+R14
+R15
+!s100 Lj26A9GFA@JEY9R3YK0V>0
+!i10b 1
+En_full_adder
+Z84 w1476132191
+R6
+R7
+R4
+Z85 8/home/fsjoyti/cpre381/Project-A/n_full_adder.vhd
+Z86 F/home/fsjoyti/cpre381/Project-A/n_full_adder.vhd
+l0
+L4
+VU=TQ6]]Z?g6dC]aI6XLB60
+R10
+32
+Z87 !s108 1476132191.347406
+Z88 !s90 -reportprogress|300|-work|work|/home/fsjoyti/cpre381/Project-A/n_full_adder.vhd|
+Z89 !s107 /home/fsjoyti/cpre381/Project-A/n_full_adder.vhd|
+R14
+R15
+!s100 [JZ6J9BS4kS7I^GC;F3@^1
+!i10b 1
+Astructure
+R6
+R7
+DEx4 work 12 n_full_adder 0 22 U=TQ6]]Z?g6dC]aI6XLB60
+l27
+L14
+VU9IFmmcnLIAN1AeX2dWKg2
+R10
+32
+R87
+R88
+R89
+R14
+R15
+!s100 Z0Xa]N983`]ne36nmJL>20
+!i10b 1
+Eor2
+R5
+R6
+R7
+R4
+Z90 8or2.vhd
+Z91 For2.vhd
+l0
+L21
+Vk7f3`Jzi`[F;b8Rfj=5e61
+R10
+32
+R11
+R12
+R13
+R14
+R15
+!s100 ZVmT`b[V=<MZaG8><EO<P0
+!i10b 1
+Adataflow
+R6
+R7
+DEx4 work 3 or2 0 22 k7f3`Jzi`[F;b8Rfj=5e61
+32
+l30
+L29
+V?T?0llj[90AUch]8WhO2M1
+R10
+R11
+R12
+R13
+R14
+R15
+!s100 V3K4bIY=zZ1[`5_8eaH]c1
+!i10b 1
+Exor2
+R5
+R6
+R7
+R4
+Z92 8xor2.vhd
+Z93 Fxor2.vhd
+l0
+L21
+VoJX7N_cOc@69>@O:dR=[D1
+R10
+32
+R11
+R12
+R13
+R14
+R15
+!s100 B3=5ddYE76YW1XPBQ`3hh1
+!i10b 1
+Adataflow
+R6
+R7
+DEx4 work 4 xor2 0 22 oJX7N_cOc@69>@O:dR=[D1
+32
+l30
+L29
+VeS[4CiU@SQ[7LYS5Q8<A40
+R10
+R11
+R12
+R13
+R14
+R15
+!s100 zN22VJPzoSC[^IXIHm0R]2
+!i10b 1

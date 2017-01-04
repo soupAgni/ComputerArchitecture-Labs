@@ -1,0 +1,116 @@
+use work.all;
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity ALU_1bit is
+    generic(N : integer := 1);
+    Port ( A        : in  STD_LOGIC;
+           B        : in  STD_LOGIC;
+           Less     : in  STD_LOGIC;
+           Cin      : in  STD_LOGIC;
+           Op       : in  STD_LOGIC_VECTOR (1 downto 0);
+           Ainvert  : in  STD_LOGIC;
+           Binvert  : in  STD_LOGIC;
+           Set      : out STD_LOGIC;
+           Result   : out STD_LOGIC);
+end ALU_1bit;
+
+architecture dataflow of ALU_1bit is
+  
+  component multiplexer 
+     port(x         : in std_logic;
+       A         : in std_logic;
+       B         : in std_logic;
+       Y         : out std_logic);
+
+  end component;
+  
+  component or2 
+  port(i_A          : in std_logic;
+       i_B          : in std_logic;
+       o_F          : out std_logic);
+
+  end component;
+  
+  component inv 
+  port(i_A          : in std_logic;
+       o_F          : out std_logic);
+  end component;
+
+  component and2
+  port(i_A          : in std_logic;
+       i_B          : in std_logic;
+       o_F          : out std_logic);
+  end component;
+
+  component mux_4to1 
+    Port ( SEL : in  STD_LOGIC_VECTOR (1 downto 0);
+           A   : in  STD_LOGIC;
+           B   : in  STD_LOGIC;
+           C   : in  STD_LOGIC;
+           D   : in  STD_LOGIC;
+           X   : out STD_LOGIC);
+  end component;
+  
+  component fullAdder_b 
+  port(C_in      : in std_logic;
+       A         : in std_logic;
+       B         : in std_logic;
+       C_out     : out std_logic;
+       S_out     : out std_logic);
+  end component;
+  
+  signal s_inv1, s_inv2, s_Ainv,s_Binv, s_And1, s_Or1, s_Adder : STD_LOGIC;
+  signal temp : STD_LOGIC:= '0';
+  
+  begin 
+    
+    inv1 : inv
+    port map(i_A   => A,
+             o_F   => s_inv1);
+            
+            
+    inv2 : inv
+    port map(i_A   => B,
+             o_F   => s_inv2);
+    
+    mux1 :    multiplexer      
+    port map( X => Ainvert,
+              A   => A,
+              B   => s_inv1,
+              Y   => s_Ainv);   
+              
+    mux2 :   multiplexer       
+    port map( X => Binvert,
+              A   => B,
+              B   => s_inv2,
+              Y   => s_Binv);     
+    
+    and1 :   and2      
+    port map(i_A  => s_Ainv,
+             i_B  => s_Binv,
+             o_F  => s_And1);
+    or1 : or2        
+    port map(i_A  => s_Ainv,
+             i_B  => s_Binv,
+             o_F  => s_Or1);
+     
+    fullAdder :   fullAdder_b
+    port map(C_in  => Cin,
+             A     => s_Ainv,
+             B     => s_binv,
+             C_out => temp, 
+             S_out => s_Adder);
+             
+    fourto1 :   mux_4to1   
+    port map(SEL => Op,
+              A   => s_And1,
+              B   => s_Or1,
+              C   => s_Adder,
+              D  => Less,
+              X   => Result);
+              
+    Set <= s_Adder;
+    
+      
+end dataflow;

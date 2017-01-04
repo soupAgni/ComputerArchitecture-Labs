@@ -1,0 +1,8 @@
+
+use work.all;
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+package array2D is
+type array32_bit is array (natural range<>)of std_logic(31 downto 0);
+end array2D;

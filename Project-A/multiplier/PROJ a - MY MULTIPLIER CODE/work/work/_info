@@ -1,0 +1,448 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/souparni/cpre381/projectA
+T_opt
+Vc=9FdOZHn_NW[W6G9`URP2
+04 9 8 work processor dataflow 1
+=1-000000000000-57ead5b1-9fc1-2955
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.1c;51
+Z3 d/home/souparni/cpre381/projectA
+T_opt1
+Vnam`WeWbZXGkdfhZi6;<<3
+04 12 10 work mux_5to1_top behavioral 1
+=1-000000000000-57f27878-3dc5b-7028
+R1
+n@_opt1
+R2
+R3
+T_opt2
+VGR>PKF`J`i6YoUo3T^>:I0
+04 11 8 work alu_1bit_p2 dataflow 1
+=1-000000000000-57f27d4d-53c90-7202
+R1
+n@_opt2
+R2
+Ealu_1bit
+Z4 w1475508875
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R3
+Z7 8/home/souparni/cpre381/projectA/ALU_1bit_P2.vhd
+Z8 F/home/souparni/cpre381/projectA/ALU_1bit_P2.vhd
+l0
+L5
+VI_24zKzHUTX6bW``QILhc2
+Z9 OL;C;10.1c;51
+32
+Z10 !s108 1475508875.859720
+Z11 !s90 -reportprogress|300|-work|work|/home/souparni/cpre381/projectA/ALU_1bit_P2.vhd|
+Z12 !s107 /home/souparni/cpre381/projectA/ALU_1bit_P2.vhd|
+Z13 o-work work
+Z14 tExplicit 1
+!s100 JYg5L]^0nDM232J^4oEkW1
+!i10b 1
+Adataflow
+R5
+R6
+DEx4 work 8 alu_1bit 0 22 I_24zKzHUTX6bW``QILhc2
+l75
+L18
+VeB>zA@FNZKQd0[cTS9N[;2
+R9
+32
+R10
+R11
+R12
+R13
+R14
+!s100 HT:m4kXR:6A3AeEk3]:=`0
+!i10b 1
+Ealu_1bit_p2
+Z15 w1475509571
+R5
+R6
+R3
+R7
+R8
+l0
+L5
+V<91ZRjecI^k3j9791hHnb0
+R9
+32
+Z16 !s108 1475509571.416522
+R11
+R12
+R13
+R14
+!s100 <CQG@zS:^iW[;oQDWc;`30
+!i10b 1
+Adataflow
+R5
+R6
+DEx4 work 11 alu_1bit_p2 0 22 <91ZRjecI^k3j9791hHnb0
+l75
+L18
+V@ako`eOf22C@?1nL6SAM]3
+R9
+32
+R16
+R11
+R12
+R13
+R14
+!s100 XCI3R>4lID8g0NzzgoM7Y2
+!i10b 1
+Eand2
+Z17 w1471486984
+R5
+R6
+R3
+Z18 8/home/souparni/cpre381/projectA/and2.vhd
+Z19 F/home/souparni/cpre381/projectA/and2.vhd
+l0
+L21
+VhdN5CX>GzelGC?Caa7z3z1
+R9
+32
+Z20 !s108 1475508680.083383
+Z21 !s90 -reportprogress|300|-work|work|/home/souparni/cpre381/projectA/and2.vhd|
+Z22 !s107 /home/souparni/cpre381/projectA/and2.vhd|
+R13
+R14
+!s100 lO?WAJ[HO55_;GBaC]4:T3
+!i10b 1
+Adataflow
+R5
+R6
+DEx4 work 4 and2 0 22 hdN5CX>GzelGC?Caa7z3z1
+l30
+L29
+VQhF5]JHAgE[NE0nO9RHd@2
+R9
+32
+R20
+R21
+R22
+R13
+R14
+!s100 :JPJPAKnk?gQ;0GJ72LF72
+!i10b 1
+Efulladder_b
+Z23 w1472830620
+R5
+R6
+R3
+Z24 8/home/souparni/cpre381/projectA/fullAdder_b.vhd
+Z25 F/home/souparni/cpre381/projectA/fullAdder_b.vhd
+l0
+L13
+VFdk=VdnW4_1MdEmUIY>TR0
+R9
+32
+Z26 !s108 1475508680.429052
+Z27 !s90 -reportprogress|300|-work|work|/home/souparni/cpre381/projectA/fullAdder_b.vhd|
+Z28 !s107 /home/souparni/cpre381/projectA/fullAdder_b.vhd|
+R13
+R14
+!s100 VG05?Bm0]RIcl>;IdeJ300
+!i10b 1
+Adataflow
+R5
+R6
+DEx4 work 11 fulladder_b 0 22 Fdk=VdnW4_1MdEmUIY>TR0
+l46
+L23
+VGK>`IIWQ6V<lIg7aKY1HL2
+R9
+32
+R26
+R27
+R28
+R13
+R14
+!s100 430[c3HBk5gYi2Y=8=2le1
+!i10b 1
+Einv
+Z29 w1471487010
+R5
+R6
+R3
+Z30 8/home/souparni/cpre381/projectA/inv.vhd
+Z31 F/home/souparni/cpre381/projectA/inv.vhd
+l0
+L21
+VMkn7>YO6<B1036fAJMRlE3
+R9
+32
+Z32 !s108 1475508680.643254
+Z33 !s90 -reportprogress|300|-work|work|/home/souparni/cpre381/projectA/inv.vhd|
+Z34 !s107 /home/souparni/cpre381/projectA/inv.vhd|
+R13
+R14
+!s100 5Z7EIzZeHI^h0SS_n@KG>2
+!i10b 1
+Adataflow
+R5
+R6
+DEx4 work 3 inv 0 22 Mkn7>YO6<B1036fAJMRlE3
+l29
+L28
+VEIZcU:L:5^MUKbmz]FJQe0
+R9
+32
+R32
+R33
+R34
+R13
+R14
+!s100 oJSg@l>g_mjnH40bC_SFK0
+!i10b 1
+Emultiplexer
+Z35 w1472777333
+R5
+R6
+R3
+Z36 8/home/souparni/cpre381/projectA/multiplexer.vhd
+Z37 F/home/souparni/cpre381/projectA/multiplexer.vhd
+l0
+L21
+VN67lZe@2cDoAFeFI@I2OX2
+R9
+32
+Z38 !s108 1475508680.826866
+Z39 !s90 -reportprogress|300|-work|work|/home/souparni/cpre381/projectA/multiplexer.vhd|
+Z40 !s107 /home/souparni/cpre381/projectA/multiplexer.vhd|
+R13
+R14
+!s100 2WIW1:f69io:R`Fga>ZhG0
+!i10b 1
+Adataflow
+R5
+R6
+DEx4 work 11 multiplexer 0 22 N67lZe@2cDoAFeFI@I2OX2
+l51
+L30
+V1VHLkgbn2Unzc?SAR7RV42
+R9
+32
+R38
+R39
+R40
+R13
+R14
+!s100 W3XcO=n33AF@cZ1=hfL9Q0
+!i10b 1
+Emux_2to1_top
+Z41 w1475008619
+R5
+R6
+R3
+Z42 8/home/souparni/cpre381/projectA/2:1_multiplexer.vhd
+Z43 F/home/souparni/cpre381/projectA/2:1_multiplexer.vhd
+l0
+L6
+V?ela8B<=jcPn[J^nHV?hz3
+R9
+32
+Z44 !s108 1475508679.275664
+Z45 !s90 -reportprogress|300|-work|work|/home/souparni/cpre381/projectA/2:1_multiplexer.vhd|
+Z46 !s107 /home/souparni/cpre381/projectA/2:1_multiplexer.vhd|
+R13
+R14
+!s100 =d7[dSjkmmU42=j7fFfCZ2
+!i10b 1
+Abehavioral
+R5
+R6
+DEx4 work 12 mux_2to1_top 0 22 ?ela8B<=jcPn[J^nHV?hz3
+l15
+L14
+Vi9Nj3E6>2N0mJ`Y[=B1TT3
+R9
+32
+R44
+R45
+R46
+R13
+R14
+!s100 e:V5Ulg^K4AjbSIGG>@hG0
+!i10b 1
+Emux_4to1
+Z47 w1475010384
+R5
+R6
+R3
+Z48 8/home/souparni/cpre381/projectA/4to1mux1Bit.vhd
+Z49 F/home/souparni/cpre381/projectA/4to1mux1Bit.vhd
+l0
+L4
+VlKhCQ[TRfI>^Qg8JCd`PP3
+R9
+32
+Z50 !s108 1475508679.716575
+Z51 !s90 -reportprogress|300|-work|work|/home/souparni/cpre381/projectA/4to1mux1Bit.vhd|
+Z52 !s107 /home/souparni/cpre381/projectA/4to1mux1Bit.vhd|
+R13
+R14
+!s100 SWk4ho]lkMAO6of`W]N[?3
+!i10b 1
+Abehavioral
+R5
+R6
+DEx4 work 8 mux_4to1 0 22 lKhCQ[TRfI>^Qg8JCd`PP3
+l15
+L14
+V[1[7j=LBez]CXd5CW27mI0
+R9
+32
+R50
+R51
+R52
+R13
+R14
+!s100 gKALHJGH?Zjh=i5FFk5;=0
+!i10b 1
+Emux_5to1_top
+Z53 w1475509548
+R5
+R6
+R3
+Z54 8/home/souparni/cpre381/projectA/5-1 mux.vhd
+Z55 F/home/souparni/cpre381/projectA/5-1 mux.vhd
+l0
+L4
+VzddEIo5JAG7mK:_oX6RNW2
+R9
+32
+Z56 !s108 1475509548.208519
+Z57 !s90 -reportprogress|300|-work|work|/home/souparni/cpre381/projectA/5-1 mux.vhd|
+Z58 !s107 /home/souparni/cpre381/projectA/5-1 mux.vhd|
+R13
+R14
+!s100 L9VlRG:h[YR>4G`<f5^jc0
+!i10b 1
+Abehavioral
+R5
+R6
+DEx4 work 12 mux_5to1_top 0 22 zddEIo5JAG7mK:_oX6RNW2
+l16
+L15
+VX?g]Fz0[m`EEIE7RMBIkH0
+R9
+32
+R56
+R57
+R58
+R13
+R14
+!s100 2SJ2RGA:<W[>N6^7[5edI0
+!i10b 1
+Eor2
+Z59 w1471487016
+R5
+R6
+R3
+Z60 8/home/souparni/cpre381/projectA/or2.vhd
+Z61 F/home/souparni/cpre381/projectA/or2.vhd
+l0
+L21
+Vk7f3`Jzi`[F;b8Rfj=5e61
+R9
+32
+Z62 !s108 1475508681.006210
+Z63 !s90 -reportprogress|300|-work|work|/home/souparni/cpre381/projectA/or2.vhd|
+Z64 !s107 /home/souparni/cpre381/projectA/or2.vhd|
+R13
+R14
+!s100 ZVmT`b[V=<MZaG8><EO<P0
+!i10b 1
+Adataflow
+R5
+R6
+DEx4 work 3 or2 0 22 k7f3`Jzi`[F;b8Rfj=5e61
+l30
+L29
+V?T?0llj[90AUch]8WhO2M1
+R9
+32
+R62
+R63
+R64
+R13
+R14
+!s100 V3K4bIY=zZ1[`5_8eaH]c1
+!i10b 1
+Eprocessor
+Z65 w1474931809
+R5
+R6
+R3
+Z66 8/home/souparni/cpre381/Lab-04/processor.vhd
+Z67 F/home/souparni/cpre381/Lab-04/processor.vhd
+l0
+L13
+VHeLcJjdQbHdgMJDS`ATF_1
+R9
+32
+Z68 !s108 1475007904.363107
+Z69 !s90 -reportprogress|300|-work|work|/home/souparni/cpre381/Lab-04/processor.vhd|
+Z70 !s107 /home/souparni/cpre381/Lab-04/processor.vhd|
+R13
+R14
+!s100 J1<^5HUC5WmaF4D]Wh<Y51
+!i10b 1
+Adataflow
+R5
+R6
+DEx4 work 9 processor 0 22 HeLcJjdQbHdgMJDS`ATF_1
+l70
+L34
+V==W^c_QICY@k^0RZ06CD@0
+R9
+32
+R68
+R69
+R70
+R13
+R14
+!s100 3CdA2<8z?gUmNj0lb6CX50
+!i10b 1
+Exor2
+Z71 w1471487048
+R5
+R6
+R3
+Z72 8/home/souparni/cpre381/projectA/xor2.vhd
+Z73 F/home/souparni/cpre381/projectA/xor2.vhd
+l0
+L21
+VoJX7N_cOc@69>@O:dR=[D1
+R9
+32
+Z74 !s108 1475508681.205289
+Z75 !s90 -reportprogress|300|-work|work|/home/souparni/cpre381/projectA/xor2.vhd|
+Z76 !s107 /home/souparni/cpre381/projectA/xor2.vhd|
+R13
+R14
+!s100 B3=5ddYE76YW1XPBQ`3hh1
+!i10b 1
+Adataflow
+R5
+R6
+DEx4 work 4 xor2 0 22 oJX7N_cOc@69>@O:dR=[D1
+l30
+L29
+VeS[4CiU@SQ[7LYS5Q8<A40
+R9
+32
+R74
+R75
+R76
+R13
+R14
+!s100 zN22VJPzoSC[^IXIHm0R]2
+!i10b 1
